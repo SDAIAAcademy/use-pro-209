@@ -1,0 +1,188 @@
+{
+  "facts": [
+    {
+      "id": "F1",
+      "ar_tok": [
+        "الصباح"
+      ],
+      "en_tok": [
+        "morning"
+      ]
+    },
+    {
+      "id": "F2",
+      "ar_tok": [
+        "بدون"
+      ],
+      "en_tok": [
+        "without food"
+      ]
+    },
+    {
+      "id": "F3",
+      "ar_tok": [
+        "استمر"
+      ],
+      "en_tok": [
+        "Keep taking"
+      ]
+    },
+    {
+      "id": "F4",
+      "ar_tok": [
+        "لا تأخذ حبتين"
+      ],
+      "en_tok": [
+        "Never take two"
+      ]
+    },
+    {
+      "id": "F5",
+      "ar_tok": [
+        "ماء"
+      ],
+      "en_tok": [
+        "water"
+      ]
+    },
+    {
+      "id": "F6",
+      "ar_tok": [
+        "حكة"
+      ],
+      "en_tok": [
+        "tching"
+      ]
+    },
+    {
+      "id": "F7",
+      "ar_tok": [
+        "قيء",
+        "أوقف"
+      ],
+      "en_tok": [
+        "vomit",
+        "stop"
+      ]
+    },
+    {
+      "id": "F8",
+      "ar_tok": [
+        "3 أيام"
+      ],
+      "en_tok": [
+        "3 days"
+      ]
+    },
+    {
+      "id": "F9",
+      "ar_tok": [
+        "طبيعي",
+        "الطوارئ"
+      ],
+      "en_tok": [
+        "normal",
+        "emergency"
+      ]
+    },
+    {
+      "id": "F10",
+      "ar_tok": [
+        "214"
+      ],
+      "en_tok": [
+        "214"
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "id": "A1",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "في المساء",
+      "fact": "F1",
+      "why": "المصدر: في الصباح"
+    },
+    {
+      "id": "A2",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "يمكنك إيقاف الميتفورمين",
+      "fact": "F3",
+      "why": "يخالف المصدر: الميتفورمين يستمر"
+    },
+    {
+      "id": "A3",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "تؤخذ جرعتان في اليوم التالي",
+      "fact": "F4",
+      "why": "يخالف المصدر: لا تُضاعف الجرعة"
+    },
+    {
+      "id": "A4",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "وعندها يُراجَع الطوارئ",
+      "fact": "F9",
+      "why": "سقط أهم ما في السطر: العلامات قد تظهر وقياس السكر طبيعي، وسقط إيقاف الدواء"
+    },
+    {
+      "id": "A5",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "هذا الدواء يحمي القلب عند جميع المرضى",
+      "fact": "",
+      "why": "جملة ليس لها سطر في المصدر"
+    },
+    {
+      "id": "A6",
+      "lang": "ar",
+      "kind": "سهولة القراءة",
+      "quote": "مثبطات الناقل المشارك للصوديوم والغلوكوز من النوع الثاني",
+      "fact": "F5",
+      "why": "جملة من 40 كلمة ومصطلحات بلا شرح"
+    },
+    {
+      "id": "A7",
+      "lang": "ar",
+      "kind": "سهولة القراءة",
+      "quote": "تُراجَع العيادة",
+      "fact": "",
+      "why": "مبني للمجهول لا يخاطب المريض: من يراجع؟"
+    },
+    {
+      "id": "B1",
+      "lang": "en",
+      "kind": "accuracy",
+      "quote": "at least 1 day beforehand",
+      "fact": "F8",
+      "why": "The source says at least 3 days"
+    },
+    {
+      "id": "B2",
+      "lang": "en",
+      "kind": "accuracy",
+      "quote": "",
+      "fact": "F7",
+      "why": "The sick-day rule is missing"
+    },
+    {
+      "id": "B3",
+      "lang": "en",
+      "kind": "readability",
+      "quote": "sodium-glucose cotransporter 2 inhibitor",
+      "fact": "",
+      "why": "Jargon and long sentences: a reading grade far above 8"
+    }
+  ],
+  "jargon_ar": [
+    "الحماض الكيتوني",
+    "مثبطات",
+    "الناقل المشارك",
+    "ديناميكي",
+    "الإفراغ البولي",
+    "التناسلية الفطرية"
+  ]
+}
