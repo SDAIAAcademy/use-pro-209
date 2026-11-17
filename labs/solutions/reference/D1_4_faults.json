@@ -153,6 +153,22 @@
       "why": "مبني للمجهول لا يخاطب المريض: من يراجع؟"
     },
     {
+      "id": "A8",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "",
+      "fact": "F6",
+      "why": "سقط النصف العاجل: ألم أو تورم أو احمرار مع حرارة يستدعي مساعدة طبية فورًا"
+    },
+    {
+      "id": "A9",
+      "lang": "ar",
+      "kind": "دقة",
+      "quote": "",
+      "fact": "F8",
+      "why": "سقط «أخبر الفريق» وسقط الصيام الطويل لإجراء"
+    },
+    {
       "id": "B1",
       "lang": "en",
       "kind": "accuracy",
@@ -167,6 +183,22 @@
       "quote": "",
       "fact": "F7",
       "why": "The sick-day rule is missing"
+    },
+    {
+      "id": "B4",
+      "lang": "en",
+      "kind": "accuracy",
+      "quote": "",
+      "fact": "F6",
+      "why": "The urgent half is missing: pain, swelling or redness with fever needs medical help right away"
+    },
+    {
+      "id": "B5",
+      "lang": "en",
+      "kind": "accuracy",
+      "quote": "",
+      "fact": "F8",
+      "why": "Telling the team, and the long fast for a procedure, are missing"
     },
     {
       "id": "B3",

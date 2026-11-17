@@ -292,7 +292,7 @@ export const facts = [
   { id: "F3", text: "يستمر المريض على الميتفورمين كما هو. الدواء الجديد إضافة، لا بديل.", en: "Keep taking metformin as before. The new medicine is added, not swapped.", ar_tok: ["استمر"], en_tok: ["Keep taking"] },
   { id: "F4", text: "إذا نسي جرعة يأخذها حين يتذكر. إن اقترب موعد الجرعة التالية يترك المنسية ويأخذ التالية في موعدها. لا يأخذ جرعتين معًا.", en: "If a dose is missed, take it when remembered. If it is almost time for the next dose, skip the missed one and take the next at the usual time. Never take two doses at the same time.", ar_tok: ["لا تأخذ حبتين"], en_tok: ["Never take two"] },
   { id: "F5", text: "الدواء يُخرج السكر في البول، فيزيد التبول. يشرب المريض ماء كافيًا.", en: "The medicine removes sugar in the urine, so you will pass more urine. Drink enough water.", ar_tok: ["ماء"], en_tok: ["water"] },
-  { id: "F6", text: "قد تظهر حكة أو احمرار في المنطقة التناسلية: نظافة وتجفيف، ومراجعة العيادة إن ظهرت. ألم أو تورم أو احمرار هناك مع حرارة أو تعب شديد: يوقف الدواء ويطلب مساعدة طبية فورًا.", en: "Itching or redness in the genital area can happen: keep the area clean and dry and call the clinic. Pain, swelling or redness there with fever or feeling very unwell: stop the medicine and get medical help right away.", ar_tok: ["حكة"], en_tok: ["tching"] },
+  { id: "F6", text: "قد تظهر حكة أو احمرار في المنطقة التناسلية: نظافة وتجفيف، ومراجعة العيادة إن ظهرت. ألم أو تورم أو احمرار هناك مع حرارة أو تعب شديد: يطلب مساعدة طبية فورًا.", en: "Itching or redness in the genital area can happen: keep the area clean and dry and call the clinic. Pain, swelling or redness there with fever or feeling very unwell: get medical help right away.", ar_tok: ["حكة"], en_tok: ["tching"] },
   { id: "F7", text: "قاعدة العيادة لأيام المرض: عند الإسهال أو العجز عن الأكل والشرب كالمعتاد، يوقف الدواء مؤقتًا ويتصل بالعيادة في اليوم نفسه. القيء من علامات الخطر في F9.", en: "The clinic's sick-day rule: if you have diarrhoea or cannot eat or drink as usual, stop the medicine for now and call the clinic the same day. Vomiting is a danger sign (F9).", ar_tok: ["إسهال", "أوقف"], en_tok: ["diarrhoea", "stop"] },
   { id: "F8", text: "قبل عملية جراحية أو صيام طويل لإجراء: يخبر الفريق. يوقف الدواء ثلاثة أيام على الأقل قبلها.", en: "Before an operation or a long fast for a procedure: tell the team. The medicine is stopped at least 3 days before.", ar_tok: ["3 أيام"], en_tok: ["3 days"] },
   { id: "F9", text: "علامات خطر: غثيان، قيء، ألم في البطن، تعب، صعوبة في التنفس. قد تظهر وقياس السكر طبيعي. يوقف الدواء ويطلب مساعدة طبية فورًا: يتصل بالعيادة أو يذهب إلى الطوارئ.", en: "Danger signs: feeling sick, vomiting, belly pain, tiredness, trouble breathing. They can come even when your sugar reading is normal. Stop the medicine and get medical help right away: call the clinic or go to the emergency department.", ar_tok: ["طبيعي", "فورًا"], en_tok: ["normal", "right away"] },
@@ -301,7 +301,7 @@ export const facts = [
 
 export const sourceSheet = `# ورقة المصدر: إضافة إمباغليفلوزين
 
-${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف. روجع على النشرة الرسمية الأمريكية للدواء: الجرعة والوقت والطعام (F1 وF2)، والجرعة المنسية (F4)، وزيادة التبول (F5)، وعلامات العدوى التناسلية (F6)، وإيقاف الدواء قبل العملية (F8)، وعلامات الحماض الكيتوني وما يُفعل عندها (F9). أما ما يلي فمن صياغة العيادة الافتراضية لا من النشرة: الاستمرار على الميتفورمين (قرار الطبيبة في الزيارة C1)، ونصيحة شرب الماء في F5، والنظافة في F6، وقاعدة أيام المرض F7، والموعد في F10. ليست إرشادًا سريريًا.
+${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف. روجع على النشرة الرسمية الأمريكية للدواء: الجرعة والوقت والطعام (F1 وF2)، والجرعة المنسية (F4)، وزيادة التبول وشرب الماء (F5)، وعلامات العدوى التناسلية ومتى يُطلب العون (F6)، وإيقاف الدواء قبل العملية (F8)، وعلامات الحماض الكيتوني وما يُفعل عندها (F9). أما ما يلي فمن صياغة العيادة الافتراضية لا من النشرة: الاستمرار على الميتفورمين (قرار الطبيبة في الزيارة C1)، والنظافة في F6، وقاعدة أيام المرض F7، والموعد في F10. ليست إرشادًا سريريًا.
 
 **التغيير:** المريض مهدي السبيعي على ميتفورمين 1000 ملغ مرتين يوميًا. أُضيف إمباغليفلوزين 10 ملغ (الزيارة C1).
 
@@ -377,8 +377,12 @@ export const leafletFaults = [
   { id: "A5", lang: "ar", kind: "دقة", quote: "هذا الدواء يحمي القلب عند جميع المرضى", fact: "", why: "جملة ليس لها سطر في المصدر" },
   { id: "A6", lang: "ar", kind: "سهولة القراءة", quote: "مثبطات الناقل المشارك للصوديوم والغلوكوز من النوع الثاني", fact: "F5", why: "جملة من 40 كلمة ومصطلحات بلا شرح" },
   { id: "A7", lang: "ar", kind: "سهولة القراءة", quote: "تُراجَع العيادة", fact: "", why: "مبني للمجهول لا يخاطب المريض: من يراجع؟" },
+  { id: "A8", lang: "ar", kind: "دقة", quote: "", fact: "F6", why: "سقط النصف العاجل: ألم أو تورم أو احمرار مع حرارة يستدعي مساعدة طبية فورًا" },
+  { id: "A9", lang: "ar", kind: "دقة", quote: "", fact: "F8", why: "سقط «أخبر الفريق» وسقط الصيام الطويل لإجراء" },
   { id: "B1", lang: "en", kind: "accuracy", quote: "at least 1 day beforehand", fact: "F8", why: "The source says at least 3 days" },
   { id: "B2", lang: "en", kind: "accuracy", quote: "", fact: "F7", why: "The sick-day rule is missing" },
+  { id: "B4", lang: "en", kind: "accuracy", quote: "", fact: "F6", why: "The urgent half is missing: pain, swelling or redness with fever needs medical help right away" },
+  { id: "B5", lang: "en", kind: "accuracy", quote: "", fact: "F8", why: "Telling the team, and the long fast for a procedure, are missing" },
   { id: "B3", lang: "en", kind: "readability", quote: "sodium-glucose cotransporter 2 inhibitor", fact: "", why: "Jargon and long sentences: a reading grade far above 8" },
 ];
 
@@ -399,6 +403,7 @@ export const leafletRefAr = `# دواؤك الجديد: إمباغليفلوزي
 
 - الدواء يُخرج السكر مع البول، فتتبول أكثر. اشرب ماء كافيًا.
 - قد تشعر بحكة أو احمرار في المنطقة التناسلية. حافظ على النظافة والتجفيف، واتصل بالعيادة.
+- ألم أو تورم أو احمرار هناك مع حرارة: اطلب مساعدة طبية فورًا.
 
 ## متى توقف الدواء وتتصل بنا
 
@@ -411,7 +416,6 @@ export const leafletRefAr = `# دواؤك الجديد: إمباغليفلوزي
 - ألم في البطن.
 - تعب.
 - صعوبة في التنفس.
-- ألم أو تورم أو احمرار في المنطقة التناسلية مع حرارة.
 
 قد تظهر هذه العلامات وقياس السكر طبيعي. اتصل بالعيادة أو اذهب إلى الطوارئ فورًا.
 
@@ -419,7 +423,7 @@ export const leafletRefAr = `# دواؤك الجديد: إمباغليفلوزي
 
 تحليل الدم بعد ثلاثة أشهر. للأسئلة: التحويلة 214.
 
-**قبل أن تغادر، قل لنا بكلماتك:** ماذا تفعل إذا أصابك إسهال ولم تستطع الأكل؟
+**قبل أن تغادر، قل لنا بكلماتك:** ماذا تفعل إذا أصابك قيء؟
 `;
 
 export const leafletRefEn = `# Your new medicine: empagliflozin
@@ -439,6 +443,7 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 
 - The medicine removes sugar in your urine. You will pass more urine. Drink enough water.
 - Itching or redness in the genital area can happen. Keep the area clean and dry, and call the clinic.
+- Pain, swelling or redness there with fever: get medical help right away.
 
 ## When to stop the medicine and call us
 
@@ -451,7 +456,6 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 - Belly pain.
 - Tiredness.
 - Trouble breathing.
-- Pain, swelling or redness in the genital area with fever.
 
 These signs can come even when your sugar reading is normal. Call the clinic or go to the emergency department right away.
 
@@ -459,7 +463,7 @@ These signs can come even when your sugar reading is normal. Call the clinic or 
 
 A blood test in 3 months. Questions: extension 214.
 
-**Before you leave, tell us in your own words:** what will you do if you have diarrhoea and cannot eat?
+**Before you leave, tell us in your own words:** what will you do if you start vomiting?
 `;
 
 // ---------------------------------------------------------------- pre-work and capstone material

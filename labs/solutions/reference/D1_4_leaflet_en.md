@@ -15,6 +15,7 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 
 - The medicine removes sugar in your urine. You will pass more urine. Drink enough water.
 - Itching or redness in the genital area can happen. Keep the area clean and dry, and call the clinic.
+- Pain, swelling or redness there with fever: get medical help right away.
 
 ## When to stop the medicine and call us
 
@@ -27,7 +28,6 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 - Belly pain.
 - Tiredness.
 - Trouble breathing.
-- Pain, swelling or redness in the genital area with fever.
 
 These signs can come even when your sugar reading is normal. Call the clinic or go to the emergency department right away.
 
@@ -35,4 +35,4 @@ These signs can come even when your sugar reading is normal. Call the clinic or 
 
 A blood test in 3 months. Questions: extension 214.
 
-**Before you leave, tell us in your own words:** what will you do if you have diarrhoea and cannot eat?
+**Before you leave, tell us in your own words:** what will you do if you start vomiting?
