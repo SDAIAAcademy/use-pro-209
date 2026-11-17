@@ -57,11 +57,11 @@
     {
       "id": "F7",
       "ar_tok": [
-        "قيء",
+        "إسهال",
         "أوقف"
       ],
       "en_tok": [
-        "vomit",
+        "diarrhoea",
         "stop"
       ]
     },
@@ -78,11 +78,11 @@
       "id": "F9",
       "ar_tok": [
         "طبيعي",
-        "الطوارئ"
+        "فورًا"
       ],
       "en_tok": [
         "normal",
-        "emergency"
+        "right away"
       ]
     },
     {

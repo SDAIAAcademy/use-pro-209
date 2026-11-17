@@ -7,7 +7,9 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 - Take one tablet (10 mg) every day in the morning.
 - Take it with or without food.
 - Keep taking metformin as before. The new medicine is added. It does not replace it.
-- If you miss a tablet, take it when you remember on the same day. Never take two at once.
+- If you miss a tablet, take it when you remember.
+- If it is almost time for the next one, skip the missed tablet.
+- Never take two at once.
 
 ## What you may notice
 
@@ -16,21 +18,21 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 
 ## When to stop the medicine and call us
 
-- If you vomit, have diarrhoea, or cannot eat or drink: stop the medicine and call the clinic.
+- If you have diarrhoea, or cannot eat or drink as usual: stop the medicine and call the clinic the same day.
 - Before an operation or a long fast for a procedure: tell the team. The medicine is stopped at least 3 days before.
 
-## Danger signs: go to the emergency department now
+## Danger signs: stop the medicine and get medical help right away
 
 - Feeling sick or vomiting.
 - Belly pain.
-- Great tiredness.
+- Tiredness.
 - Trouble breathing.
-- Severe pain or swelling in the genital area with fever.
+- Pain, swelling or redness in the genital area with fever.
 
-These signs can come even when your sugar reading is normal. Stop the medicine and go to the emergency department.
+These signs can come even when your sugar reading is normal. Call the clinic or go to the emergency department right away.
 
 ## Your next visit
 
 A blood test in 3 months. Questions: extension 214.
 
-**Before you leave, tell us in your own words:** what will you do if you vomit and cannot eat?
+**Before you leave, tell us in your own words:** what will you do if you have diarrhoea and cannot eat?

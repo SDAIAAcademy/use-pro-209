@@ -8,7 +8,7 @@ Empagliflozin is a sodium-glucose cotransporter 2 inhibitor that facilitates uri
 
 - Administer one 10 mg tablet once daily in the morning, irrespective of food consumption.
 - Continuation of metformin therapy at the established dosage is recommended.
-- In the event of an omitted dose, administration should occur upon recollection during the same day; duplication of the subsequent dose is contraindicated.
+- In the event of an omitted dose, administration should occur upon recollection unless the subsequent dose is imminent; concurrent administration of two doses is contraindicated.
 - Adequate hydration is advisable owing to increased urinary frequency.
 - Genital pruritus or erythema may necessitate consultation with the clinic.
 - Prior to surgical procedures, discontinuation at least 1 day beforehand is required.

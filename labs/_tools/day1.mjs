@@ -102,7 +102,7 @@ export const consults = {
     lines: [
       ["الطبيبة", "أهلًا أستاذ حامد. هل توافق على تسجيل الزيارة ليكتب «سجل» مسودة الملاحظة؟ يُحذف التسجيل بعد التوقيع."],
       ["المريض", "موافق."],
-      ["الطبيبة", "وصلت التحاليل: السكر التراكمي 7.9 في المئة، وسكر الصائم 162. هذا سكري من النوع الثاني."],
+      ["الطبيبة", "وصلت التحاليل: السكر التراكمي 7.9 في المئة، وسكر الصائم 162، ووظائف الكلى سليمة. هذا سكري من النوع الثاني."],
       ["المريض", "أبي كان مصابًا بالسكري. أمي لا."],
       ["الطبيبة", "هل تشعر بعطش شديد أو كثرة تبول؟"],
       ["المريض", "كثرة تبول في الليل، نعم. العطش لا."],
@@ -129,6 +129,8 @@ export const HARMS = { H: "عالٍ", M: "متوسط", L: "منخفض" };
 export const harmScale = `# سلم درجة الضرر
 
 ${SYNTH}
+
+السلم من وضع المقرر للتدريب، وليس معيارًا منشورًا. في عملك يُستخدم سلم جهتك لتصنيف الحوادث.
 
 السؤال واحد لكل خطأ: **لو عُمل بالملاحظة كما هي، ماذا يصل إلى المريض؟**
 
@@ -218,7 +220,7 @@ export const notes = {
 - لا أدوية أخرى، ولا حساسية دوائية معروفة.
 
 ## الفحص والنتائج
-- السكر التراكمي 7.9%، وسكر الصائم 162.
+- السكر التراكمي 7.9%، وسكر الصائم 162. وظائف الكلى سليمة.
 - الجرح سطحي بلا احمرار ولا إفراز.
 
 ## الخطة
@@ -270,7 +272,7 @@ export const correctedC3 = `# الملاحظة المصححة: الزيارة C3
 - لا أدوية أخرى، ولا حساسية دوائية معروفة.
 
 ## الفحص والنتائج
-- السكر التراكمي 7.9%، وسكر الصائم 162.
+- السكر التراكمي 7.9%، وسكر الصائم 162. وظائف الكلى سليمة.
 - الجرح سطحي بلا احمرار ولا إفراز.
 
 ## الخطة
@@ -288,18 +290,18 @@ export const facts = [
   { id: "F1", text: "إمباغليفلوزين 10 ملغ: حبة واحدة مرة في اليوم، في الصباح.", en: "Empagliflozin 10 mg: one tablet once a day, in the morning.", ar_tok: ["الصباح"], en_tok: ["morning"] },
   { id: "F2", text: "تؤخذ مع الطعام أو بدونه.", en: "Take it with or without food.", ar_tok: ["بدون"], en_tok: ["without food"] },
   { id: "F3", text: "يستمر المريض على الميتفورمين كما هو. الدواء الجديد إضافة، لا بديل.", en: "Keep taking metformin as before. The new medicine is added, not swapped.", ar_tok: ["استمر"], en_tok: ["Keep taking"] },
-  { id: "F4", text: "إذا نسي جرعة يأخذها حين يتذكر في اليوم نفسه، ولا يضاعف الجرعة التالية.", en: "If a dose is missed, take it when remembered the same day. Never take two doses to catch up.", ar_tok: ["لا تأخذ حبتين"], en_tok: ["Never take two"] },
+  { id: "F4", text: "إذا نسي جرعة يأخذها حين يتذكر. إن اقترب موعد الجرعة التالية يترك المنسية ويأخذ التالية في موعدها. لا يأخذ جرعتين معًا.", en: "If a dose is missed, take it when remembered. If it is almost time for the next dose, skip the missed one and take the next at the usual time. Never take two doses at the same time.", ar_tok: ["لا تأخذ حبتين"], en_tok: ["Never take two"] },
   { id: "F5", text: "الدواء يُخرج السكر في البول، فيزيد التبول. يشرب المريض ماء كافيًا.", en: "The medicine removes sugar in the urine, so you will pass more urine. Drink enough water.", ar_tok: ["ماء"], en_tok: ["water"] },
-  { id: "F6", text: "قد تظهر حكة أو احمرار في المنطقة التناسلية: نظافة وتجفيف، ومراجعة العيادة إن ظهرت. ألم أو تورم شديد هناك مع حرارة: إلى الطوارئ.", en: "Itching or redness in the genital area can happen: keep the area clean and dry and call the clinic. Severe pain or swelling there with fever: go to the emergency department.", ar_tok: ["حكة"], en_tok: ["tching"] },
-  { id: "F7", text: "قاعدة العيادة لأيام المرض: عند القيء أو الإسهال أو العجز عن الأكل والشرب، يوقف الدواء مؤقتًا ويتصل بالعيادة.", en: "The clinic's sick-day rule: if you vomit, have diarrhoea or cannot eat or drink, stop the medicine for now and call the clinic.", ar_tok: ["قيء", "أوقف"], en_tok: ["vomit", "stop"] },
+  { id: "F6", text: "قد تظهر حكة أو احمرار في المنطقة التناسلية: نظافة وتجفيف، ومراجعة العيادة إن ظهرت. ألم أو تورم أو احمرار هناك مع حرارة أو تعب شديد: يوقف الدواء ويطلب مساعدة طبية فورًا.", en: "Itching or redness in the genital area can happen: keep the area clean and dry and call the clinic. Pain, swelling or redness there with fever or feeling very unwell: stop the medicine and get medical help right away.", ar_tok: ["حكة"], en_tok: ["tching"] },
+  { id: "F7", text: "قاعدة العيادة لأيام المرض: عند الإسهال أو العجز عن الأكل والشرب كالمعتاد، يوقف الدواء مؤقتًا ويتصل بالعيادة في اليوم نفسه. القيء من علامات الخطر في F9.", en: "The clinic's sick-day rule: if you have diarrhoea or cannot eat or drink as usual, stop the medicine for now and call the clinic the same day. Vomiting is a danger sign (F9).", ar_tok: ["إسهال", "أوقف"], en_tok: ["diarrhoea", "stop"] },
   { id: "F8", text: "قبل عملية جراحية أو صيام طويل لإجراء: يخبر الفريق. يوقف الدواء ثلاثة أيام على الأقل قبلها.", en: "Before an operation or a long fast for a procedure: tell the team. The medicine is stopped at least 3 days before.", ar_tok: ["3 أيام"], en_tok: ["3 days"] },
-  { id: "F9", text: "علامات خطر: غثيان، قيء، ألم في البطن، تعب شديد، صعوبة في التنفس. قد تظهر وقياس السكر طبيعي. يوقف الدواء ويذهب إلى الطوارئ فورًا.", en: "Danger signs: feeling sick, vomiting, belly pain, great tiredness, trouble breathing. They can come even when your sugar reading is normal. Stop the medicine and go to the emergency department now.", ar_tok: ["طبيعي", "الطوارئ"], en_tok: ["normal", "emergency"] },
+  { id: "F9", text: "علامات خطر: غثيان، قيء، ألم في البطن، تعب، صعوبة في التنفس. قد تظهر وقياس السكر طبيعي. يوقف الدواء ويطلب مساعدة طبية فورًا: يتصل بالعيادة أو يذهب إلى الطوارئ.", en: "Danger signs: feeling sick, vomiting, belly pain, tiredness, trouble breathing. They can come even when your sugar reading is normal. Stop the medicine and get medical help right away: call the clinic or go to the emergency department.", ar_tok: ["طبيعي", "فورًا"], en_tok: ["normal", "right away"] },
   { id: "F10", text: "الموعد القادم: تحليل السكر التراكمي بعد ثلاثة أشهر. للأسئلة: عيادة الصفصاف، التحويلة 214.", en: "Next visit: a blood test in 3 months. Questions: Al-Safsaf clinic, extension 214.", ar_tok: ["214"], en_tok: ["214"] },
 ];
 
 export const sourceSheet = `# ورقة المصدر: إضافة إمباغليفلوزين
 
-${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف، وروجعت الجرعة والوقت والجرعة المنسية والعملية وعلامات الخطر على النشرة الرسمية الأمريكية للدواء. قاعدة أيام المرض F7 قاعدة العيادة الافتراضية. ليست إرشادًا سريريًا.
+${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف. روجع على النشرة الرسمية الأمريكية للدواء: الجرعة والوقت والطعام (F1 وF2)، والجرعة المنسية (F4)، وزيادة التبول (F5)، وعلامات العدوى التناسلية (F6)، وإيقاف الدواء قبل العملية (F8)، وعلامات الحماض الكيتوني وما يُفعل عندها (F9). أما ما يلي فمن صياغة العيادة الافتراضية لا من النشرة: الاستمرار على الميتفورمين (قرار الطبيبة في الزيارة C1)، ونصيحة شرب الماء في F5، والنظافة في F6، وقاعدة أيام المرض F7، والموعد في F10. ليست إرشادًا سريريًا.
 
 **التغيير:** المريض مهدي السبيعي على ميتفورمين 1000 ملغ مرتين يوميًا. أُضيف إمباغليفلوزين 10 ملغ (الزيارة C1).
 
@@ -340,7 +342,7 @@ export const leafletDraftAr = `# مسودة ورقة المريض (العربي�
 - في حال نسيان جرعة تؤخذ جرعتان في اليوم التالي.
 - يُنصح بالإكثار من شرب الماء لأن الدواء يزيد التبول.
 - قد تحدث الالتهابات التناسلية الفطرية، وعند ظهور حكة أو احمرار تُراجَع العيادة.
-- عند القيء أو الإسهال أو العجز عن الأكل والشرب يوقف الدواء مؤقتًا ويُتصل بالعيادة.
+- عند الإسهال أو العجز عن الأكل والشرب يوقف الدواء مؤقتًا ويُتصل بالعيادة.
 - قبل العمليات الجراحية يوقف الدواء 3 أيام على الأقل.
 - من المضاعفات النادرة الحماض الكيتوني، ومن أعراضه الغثيان والقيء وألم البطن والتعب الشديد وصعوبة التنفس، وعندها يُراجَع الطوارئ.
 - هذا الدواء يحمي القلب عند جميع المرضى.
@@ -358,7 +360,7 @@ Empagliflozin is a sodium-glucose cotransporter 2 inhibitor that facilitates uri
 
 - Administer one 10 mg tablet once daily in the morning, irrespective of food consumption.
 - Continuation of metformin therapy at the established dosage is recommended.
-- In the event of an omitted dose, administration should occur upon recollection during the same day; duplication of the subsequent dose is contraindicated.
+- In the event of an omitted dose, administration should occur upon recollection unless the subsequent dose is imminent; concurrent administration of two doses is contraindicated.
 - Adequate hydration is advisable owing to increased urinary frequency.
 - Genital pruritus or erythema may necessitate consultation with the clinic.
 - Prior to surgical procedures, discontinuation at least 1 day beforehand is required.
@@ -389,7 +391,9 @@ export const leafletRefAr = `# دواؤك الجديد: إمباغليفلوزي
 - خذ حبة واحدة (10 ملغ) كل يوم في الصباح.
 - خذها مع الطعام أو بدونه.
 - استمر على الميتفورمين كما هو. الدواء الجديد إضافة وليس بديلًا.
-- إذا نسيت الحبة فخذها حين تتذكر في اليوم نفسه. لا تأخذ حبتين معًا.
+- إذا نسيت الحبة فخذها حين تتذكر.
+- إذا اقترب موعد الحبة التالية فاترك المنسية، وخذ التالية في موعدها.
+- لا تأخذ حبتين معًا.
 
 ## ما قد تلاحظه
 
@@ -398,24 +402,24 @@ export const leafletRefAr = `# دواؤك الجديد: إمباغليفلوزي
 
 ## متى توقف الدواء وتتصل بنا
 
-- إذا أصابك قيء أو إسهال، أو لم تستطع الأكل والشرب: أوقف الدواء واتصل بالعيادة.
+- إذا أصابك إسهال، أو لم تستطع الأكل والشرب كالمعتاد: أوقف الدواء واتصل بالعيادة في اليوم نفسه.
 - قبل أي عملية أو صيام طويل لإجراء طبي: أخبر الفريق. يوقف الدواء قبلها بمدة 3 أيام على الأقل.
 
-## علامات خطر: اذهب إلى الطوارئ فورًا
+## علامات خطر: أوقف الدواء واطلب مساعدة طبية فورًا
 
 - غثيان أو قيء.
 - ألم في البطن.
-- تعب شديد.
+- تعب.
 - صعوبة في التنفس.
-- ألم أو تورم شديد في المنطقة التناسلية مع حرارة.
+- ألم أو تورم أو احمرار في المنطقة التناسلية مع حرارة.
 
-قد تظهر هذه العلامات وقياس السكر طبيعي. أوقف الدواء واذهب إلى الطوارئ.
+قد تظهر هذه العلامات وقياس السكر طبيعي. اتصل بالعيادة أو اذهب إلى الطوارئ فورًا.
 
 ## موعدك
 
 تحليل الدم بعد ثلاثة أشهر. للأسئلة: التحويلة 214.
 
-**قبل أن تغادر، قل لنا بكلماتك:** ماذا تفعل إذا أصابك قيء ولم تستطع الأكل؟
+**قبل أن تغادر، قل لنا بكلماتك:** ماذا تفعل إذا أصابك إسهال ولم تستطع الأكل؟
 `;
 
 export const leafletRefEn = `# Your new medicine: empagliflozin
@@ -427,7 +431,9 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 - Take one tablet (10 mg) every day in the morning.
 - Take it with or without food.
 - Keep taking metformin as before. The new medicine is added. It does not replace it.
-- If you miss a tablet, take it when you remember on the same day. Never take two at once.
+- If you miss a tablet, take it when you remember.
+- If it is almost time for the next one, skip the missed tablet.
+- Never take two at once.
 
 ## What you may notice
 
@@ -436,24 +442,24 @@ Al-Safsaf Diabetes Clinic. A sheet for Mr Mahdi Al-Subaie.
 
 ## When to stop the medicine and call us
 
-- If you vomit, have diarrhoea, or cannot eat or drink: stop the medicine and call the clinic.
+- If you have diarrhoea, or cannot eat or drink as usual: stop the medicine and call the clinic the same day.
 - Before an operation or a long fast for a procedure: tell the team. The medicine is stopped at least 3 days before.
 
-## Danger signs: go to the emergency department now
+## Danger signs: stop the medicine and get medical help right away
 
 - Feeling sick or vomiting.
 - Belly pain.
-- Great tiredness.
+- Tiredness.
 - Trouble breathing.
-- Severe pain or swelling in the genital area with fever.
+- Pain, swelling or redness in the genital area with fever.
 
-These signs can come even when your sugar reading is normal. Stop the medicine and go to the emergency department.
+These signs can come even when your sugar reading is normal. Call the clinic or go to the emergency department right away.
 
 ## Your next visit
 
 A blood test in 3 months. Questions: extension 214.
 
-**Before you leave, tell us in your own words:** what will you do if you vomit and cannot eat?
+**Before you leave, tell us in your own words:** what will you do if you have diarrhoea and cannot eat?
 `;
 
 // ---------------------------------------------------------------- pre-work and capstone material
