@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="deck" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>اليوم 1 · ما يحيط بالرعاية: الملاحظة وورقة المريض · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="day1.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<div class="deck" data-course="الذكاء الاصطناعي للعاملين في المهن السريرية والصحية" data-track="fluency" data-day="اليوم 1">
+<section class="slide title" id="title" data-auto="title" data-label="الترحيب" data-n="1">
+  <div class="kicker">أكاديمية سدايا · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية</div>
+  <h1>ما يحيط بالرعاية: الملاحظة وورقة المريض</h1>
+  <p class="lead mt">اليوم 1: حدود الاستخدام، وتدقيق ما يكتبه مساعد التدوين قبل التوقيع، وورقة المريض بلغتين</p>
+  <div class="meta"><span class="track">مسار الطلاقة في البيانات والذكاء الاصطناعي</span><span>يومان تدريبيان + يوم للمشروع الختامي</span><span>4 جلسات · 4 مختبرات</span><span>USE-PRO-209</span></div>
+  <aside class="notes"><p>رحّب بالمشاركين واسأل كل واحد عن مهنته في جملة: طبيب، ممرض، صيدلي، مثقِّف صحي، أخصائي تغذية. ثم اسأل: من يستخدم مساعد تدوين أو مساعد محادثة في عمله اليوم؟ ومن أحضر ورقة خط الأساس من العمل التحضيري؟ إيقاع اليوم: أربع جلسات على عيادة واحدة، في كل جلسة مختبر: 25 دقيقة في الجلستين الأوليين، و30 في الثالثة والرابعة.</p></aside>
+</section>
+
+<section class="slide" id="agenda" data-auto="agenda" data-label="جدول اليوم" data-n="2">
+  <div class="kicker">اليوم</div>
+  <h2>ما يحيط بالرعاية: الملاحظة وورقة المريض</h2>
+  <div class="agenda"><div class="item"><div><b>الجلسة 1 · حدود الذكاء الاصطناعي في العمل السريري</b><small>ما يحيط بالرعاية وما هو قرار سريري، ومتى يصير دعم القرار جهازًا طبيًا، والانحياز إلى الأتمتة وضمور المهارة</small></div></div><div class="item"><div><b>الجلسة 2 · أخطاء مساعد التدوين والمراجعة قبل التوقيع</b><small>كيف يخطئ مساعد التدوين، وخمسة أنواع من الخطأ، والموافقة على التسجيل، والقراءة مقابل نص الزيارة</small></div></div><div class="item"><div><b>الجلسة 3 · درجة الضرر والملاحظة المصححة</b><small>ثلاث درجات للضرر، والنوع نفسه بدرجات مختلفة، ومعنى التوقيع، والتصحيح مع سطره</small></div></div><div class="item"><div><b>الجلسة 4 · ورقة المريض بلغتين</b><small>اللغة المبسطة، ومستوى العربية وسهولة القراءة، والدقة مقابل ورقة المصدر، والتحقق مع المريض</small></div></div></div>
+  <aside class="notes"><p>الجلسة الأولى ترسم الحد. الثانية والثالثة عمل واحد في نصفين: نجد أخطاء الملاحظة ثم نزنها ونصححها. الرابعة عن ورقة المريض. الاستراحات بزر B.</p></aside>
+</section>
+
+<section class="slide" id="one-clinic-one-rule" data-n="3">
+  <div class="kicker">الحالة والقاعدة</div>
+  <h2>عيادة واحدة في اليومين، وقاعدة واحدة</h2>
+  <div class="cols cols-2">
+    <div class="stack">
+      <div class="card c-teal"><h4>عيادة الصفصاف للسكري</h4><p class="small mb0">جهة افتراضية: ستة ممارسين ونحو 4,200 مريض مسجل. أقرّت مساعد التدوين «سِجِلّ» ومساعد الأدلة «يقين».</p></div>
+      <div class="card c-cyan"><h4>دورك</h4><p class="small mb0">ممارس في العيادة. تراجع ما يكتبه «سجل»، وتعدّ ورقة لمريض، وتتحقق مما يقوله «يقين»، وتقرر أي بيانات تدخل أي أداة.</p></div>
+    </div>
+    <div class="stack">
+      <div class="callout tip"><b>القاعدة.</b> الذكاء الاصطناعي يعمل في ما يحيط بالرعاية. القرار السريري للممارس، وتوقيعه يعني أنه قرأ وتحقق.</div>
+      <div class="callout note small"><b>كل شيء اصطناعي.</b> المرضى والزيارات والملفات من صنع المقرر، والأخطاء مزروعة عمدًا. لا شيء في الملفات يصلح مرجعًا سريريًا.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>قل بوضوح: لن نتعلم هنا كيف يشخّص المساعد أو يعالج. نتعلم كيف نستخدمه في الورق المحيط بالرعاية دون أن يصل خطؤه إلى المريض. الدراسات المنشورة التي نفتحها غدًا حقيقية، وكل ما عداها مصنوع.</p></aside>
+</section>
+
+<section class="slide" id="what-we-assume" data-n="4">
+  <div class="kicker">ما نفترضه</div>
+  <h2>تعرف كيف تعمل مع مساعد. هنا نطبق ذلك حيث الخطأ يصل إلى مريض</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>من المقرر السابق <span class="en">USE-FLU-201</span>: تفوّض وتصف وتحكم وتتحمل المسؤولية.</li>
+      <li>لا نعيد تدريس كتابة الأمر ولا التحقق العام من المخرج.</li>
+      <li>الجديد هنا: <b>مقابل أي مصدر تتحقق</b>، و<b>ماذا يصل إلى المريض لو أخطأت</b>.</li>
+    </ul>
+    <table class="t small">
+      <tr><th>في المختبر</th><th>المساعد</th></tr>
+      <tr><td>تدقيق الملاحظة</td><td>أنت أولًا سطرًا سطرًا، ثم المساعد</td></tr>
+      <tr><td>ورقة المريض وبطاقات الأدلة</td><td>كامل، وتراجع كل مخرج</td></tr>
+      <tr><td>صياغة السؤال السريري</td><td>مرشد: يسأل ولا يجيب</td></tr>
+      <tr><td>الاختبار المراقب</td><td>دون مساعد</td></tr>
+    </table>
+  </div>
+  <aside class="notes"><p>شريحة واحدة للتذكير، لا للتدريس. سياسة استخدام المساعد مكتوبة في أعلى كل صفحة مختبر، وهي جزء مما يُقيَّم.</p></aside>
+</section>
+
+<section class="slide" id="how-you-are-assessed" data-n="5">
+  <div class="kicker">التقييم</div>
+  <h2>أربعة مكوّنات، وشرط واحد للنجاح</h2>
+  <div class="cols cols-2">
+    <div class="bars">
+      <div class="row"><span>مخرجات المختبرات</span><div class="bar c-teal" style="--w:100%"></div><span class="val">35%</span></div>
+      <div class="row"><span>بطاقة إعادة التصميم</span><div class="bar c-cyan" style="--w:100%"></div><span class="val">35%</span></div>
+      <div class="row"><span>اختبار مراقب دون ذكاء اصطناعي</span><div class="bar c-coral" style="--w:57%"></div><span class="val">20%</span></div>
+      <div class="row"><span>المراجعة المباشرة</span><div class="bar c-purple" style="--w:29%"></div><span class="val">10%</span></div>
+    </div>
+    <div class="stack">
+      <div class="callout warn"><b>شرط النجاح:</b> 70% في المجموع، وأن تجد كل خطأ عالي الضرر في الاختبار المراقب.</div>
+      <div class="callout note small"><b>سجل الجلسة:</b> سطر في آخر كل مختبر: ماذا طلبت، وماذا أدخلت، وما تحققت منه ومقابل أي مصدر، ومن وقّع.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>الأوزان وشرط النجاح من وصف المقرر. الاختبار المراقب جزآن: تدقيق ملاحظة مقابل نصها، وفرز خمس أدوات بحسب صفة الجهاز الطبي. مختبرات اليوم الثلاثة الأولى تمرين مباشر عليه.</p></aside>
+</section>
+
+<section class="slide" id="setup-check" data-n="6">
+  <div class="kicker">قبل أن نبدأ</div>
+  <h2>ثلاثة أشياء مفتوحة أمامك</h2>
+  <div class="cols cols-3">
+    <div class="card c-teal"><h4>مجلد الملفات</h4><p class="small mb0">نزّله من صفحة المقرر. افتح <span class="en">case_brief.md</span> واقرأ سطره الأول.</p></div>
+    <div class="card c-cyan"><h4>جدول بيانات</h4><p class="small mb0">افتح <span class="en">uses_six.csv</span>. إن ظهرت العربية سليمة في ستة صفوف فأنت جاهز.</p></div>
+    <div class="card c-purple"><h4>مساعد معتمد</h4><p class="small mb0">المساعد الذي أقرّته جهتك أو مساعد القاعة. لا يدخله اليوم أي بيان عن مريض حقيقي.</p></div>
+  </div>
+  <div class="callout tip mt"><b>الاختبار.</b> اسأل المساعد: «ما الفرق بين الإسقاط والاختلاق في ملاحظة طبية؟». إن أجاب فهو يعمل.</div>
+  <aside class="notes"><p>امنح القاعة ثلاث دقائق. المشكلة المعتادة: ملف يفتح بحروف مشوهة في جدول البيانات. الحل: فتحه بالاستيراد مع ترميز <span class="en">UTF-8</span>. من ليس عنده مساعد معتمد يعمل مع زميل.</p></aside>
+</section>
+
+<!-- الجلسة 1 -->
+
+<section class="slide section" id="s1" data-auto="section" data-session="1" data-n="7">
+  <div class="kicker">الجلسة 1</div>
+  <h1>حدود الذكاء الاصطناعي في العمل السريري</h1>
+  <ul class="bullets outcomes"><li>تفرّق بين استخدام يحيط بالرعاية واستخدام يدخل القرار السريري</li><li>تحدد من الغرض المقصود هل الأداة جهاز طبي</li><li>تختار خطوة تبقيها دون مساعد وتعلل اختيارك</li></ul>
+  <div class="sess-no">01</div>
+</section>
+
+<section class="slide" id="around-care-or-decision" data-lo="LO5" data-n="8" data-session="1">
+  <div class="kicker">سؤال واحد قبل كل استخدام</div>
+  <h2>هل المخرج ورقة تراجعها، أم قرار في مريض؟</h2>
+  <div class="cols cols-2">
+    <div class="card c-teal"><h4>ما يحيط بالرعاية</h4>
+      <ul class="bullets small tight">
+        <li>مسودة ملاحظة الزيارة</li>
+        <li>ورقة للمريض من مصدر معتمد</li>
+        <li>البحث عن دليل لسؤال تصوغه أنت</li>
+      </ul>
+      <p class="small mb0">المخرج نص تراجعه مقابل مصدر قبل أن يُعمل به.</p></div>
+    <div class="card c-coral"><h4>القرار السريري</h4>
+      <ul class="bullets small tight">
+        <li>ما التشخيص</li>
+        <li>أي دواء وأي جرعة</li>
+        <li>من يُحوَّل ومن يُطمأن</li>
+      </ul>
+      <p class="small mb0">المخرج يغيّر ما يحدث لمريض بعينه.</p></div>
+  </div>
+  <div class="callout tip mt"><b>الاختبار السريع.</b> هل عندك مصدر تراجع المخرج مقابله؟ النص المسجل مصدر. ورقة المصدر مصدر. «رأي المساعد» ليس مصدرًا.</div>
+  <aside class="notes"><p>اسأل القاعة عن استخدام واحد هذا الأسبوع وصنّفوه معًا. الحد يتحرك: ملخص ملف مريض ورقة، لكنه يصير قرارًا إن قرأه الممارس بدل الملف. لهذا نحتاج الشريحة التالية.</p></aside>
+</section>
+
+<section class="slide" id="intended-use-decides" data-lo="LO5" data-n="9" data-session="1">
+  <div class="kicker">متى يصير دعم القرار جهازًا طبيًا</div>
+  <h2>الغرض المقصود هو ما يحدد، لا نوع التقنية</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>إرشاد الهيئة العامة للغذاء والدواء: <b>الغرض المقصود</b> يحدد هل تُنظَّم التقنية جهازًا طبيًا.</li>
+      <li>الغرض يؤخذ من مواصفات المنتج وتعليمات استخدامه وما يقوله مطوّره.</li>
+      <li>إن قُصد بها فحص حالة مرضية أو كشفها أو تشخيصها أو مراقبتها أو علاجها أو تدبيرها، فهي جهاز طبي.</li>
+      <li>الجهاز الطبي لا يُسوَّق ولا يُستخدم دون إذن تسويق.</li>
+    </ul>
+    <div class="stack">
+      <div class="card c-coral"><h4>جهاز طبي</h4><p class="small mb0">«يكشف اعتلال الشبكية من صور قاع العين». «يقترح جرعة الإنسولين من القراءات».</p></div>
+      <div class="card c-teal"><h4>ليس جهازًا</h4><p class="small mb0">«يكتب مسودة ملاحظة الزيارة». «يبحث في الأدلة المنشورة ويذكر مصادره».</p></div>
+    </div>
+  </div>
+  <aside class="notes"><p>اقرأ الجملتين في البطاقة الحمراء وأبرز الفعلين: يكشف، يقترح جرعة. السؤال الذي يسأله الممارس عن أداة جديدة: ماذا يقول صانعها إنها تفعل؟ وهل لها إذن تسويق؟ لا نصنف هنا المنتجات تفصيلًا: هذا عمل المقرر <span class="en">USE-SEC-201</span>. راجع طبعة الإرشاد قبل كل دفعة.</p><p>المصادر: الهيئة العامة للغذاء والدواء، <span class="en">MDS-G010</span>، الإصدار 1.0.</p></aside>
+</section>
+
+<section class="slide" id="same-tool-two-uses" data-lo="LO5" data-n="10" data-session="1">
+  <div class="kicker">الأداة نفسها، استخدامان</div>
+  <h2>المساعد العام قد يكون في مكانه، وقد يكون خارج غرضه</h2>
+  <table class="t">
+    <tr><th>الاستخدام</th><th>الغرض</th><th>الحكم</th></tr>
+    <tr><td>يعيد صياغة ورقة العيادة بلغة مبسطة، بلا بيانات مريض</td><td>صياغة نص</td><td>حول الرعاية: تطابق الورقة بمصدرها</td></tr>
+    <tr class="hl"><td>ممارس يلصق تحاليل مريض ويسأل: ما التشخيص وما الجرعة؟</td><td>قرار سريري</td><td>خارج الغرض: لا يُفعل</td></tr>
+  </table>
+  <div class="callout warn mt"><b>ثلاثة أخطاء في السطر الثاني.</b> أداة لم تُصنع لهذا ولم تُجَز له. قرار سُلِّم لها. بيانات مريض خرجت من العيادة.</div>
+  <aside class="notes"><p>المراجعة لا تنقذ السطر الثاني: الممارس الذي «يراجع» تشخيصًا اقترحه المساعد لم يشخّص، بل وافق. هذا مدخل الشريحة التالية. الخطأ الثالث، خروج البيانات، موضوع اليوم الثاني.</p></aside>
+</section>
+
+<section class="slide" id="automation-bias" data-lo="LO5" data-n="11" data-session="1">
+  <div class="kicker">الانحياز إلى الأتمتة</div>
+  <h2>حين تقترح الأداة، يميل الإنسان إلى الموافقة</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li><b>الانحياز إلى الأتمتة:</b> الميل إلى الاعتماد الزائد على ما تقترحه الأداة.</li>
+      <li>يظهر أكثر مع <b>ضغط العمل</b> و<b>ضيق الوقت</b> و<b>تعقد المهمة</b>.</li>
+      <li>يخففه <b>التدريب</b> و<b>تأكيد مسؤولية المستخدم</b>.</li>
+      <li>أدوات الدعم تحسّن الأداء غالبًا، وتُدخل أخطاء جديدة لا تُلاحَظ.</li>
+    </ul>
+    <div class="stack">
+      <div class="stat center"><div class="big">74</div><div class="lbl">دراسة في مراجعة منهجية عن الانحياز إلى الأتمتة</div></div>
+      <div class="callout note small"><b>في عيادتك.</b> متى تراجع ملاحظات «سجل»؟ في آخر الدوام، ومعك عشرون ملاحظة. هذا هو الظرف الذي تصفه المراجعة.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>اسأل: متى وقّعت آخر مرة على شيء لم تقرأه كاملًا؟ لا تطلب جوابًا بصوت عالٍ. الفكرة: الانحياز ليس كسلًا، بل استجابة متوقعة لظرف العمل، ولذلك يُعالَج بطريقة العمل لا بالنية.</p><p>المصادر: <span class="en">Goddard et al., J Am Med Inform Assoc 2012</span>.</p></aside>
+</section>
+
+<section class="slide" id="deskilling" data-lo="LO5" data-n="12" data-session="1">
+  <div class="kicker">ضمور المهارة</div>
+  <h2>من اعتاد المساعد قد يضعف أداؤه حين يغيب</h2>
+  <div class="cols cols-2">
+    <div class="stack">
+      <div class="cols cols-2 gap-s">
+        <div class="stat center"><div class="big"><span class="ltr">28.4%</span></div><div class="lbl">قبل إدخال الذكاء الاصطناعي</div></div>
+        <div class="stat center"><div class="big"><span class="ltr">22.4%</span></div><div class="lbl">بعده، في المناظير التي أُجريت دونه</div></div>
+      </div>
+      <p class="small muted mb0">معدل كشف الأورام الغدية في تنظير القولون غير المدعوم بالذكاء الاصطناعي، في أربعة مراكز، 1,443 مريضًا.</p>
+    </div>
+    <ul class="bullets">
+      <li>دراسة رصدية واحدة، لا تجربة: تدل ولا تحسم.</li>
+      <li>ليست عن التوثيق، لكن السؤال نفسه يُطرح عليه.</li>
+      <li>ما الذي لن تحسنه بعد سنة من الاعتماد على المسودة؟</li>
+    </ul>
+  </div>
+  <aside class="notes"><p>اقرأ الرقمين ثم توقف. قل ما تقوله الدراسة فقط: انخفاض في أداء الأطباء أنفسهم حين عملوا دون الأداة بعد أن اعتادوها. لا تعمّم إلى كل مهنة. الأرقام من أبرز ما يتقادم في المقرر: حدّثها قبل كل دفعة.</p><p>المصادر: <span class="en">Lancet Gastroenterol Hepatol 2025</span>، دراسة رصدية متعددة المراكز.</p></aside>
+</section>
+
+<section class="slide" id="keep-one-step" data-lo="LO5" data-n="13" data-session="1">
+  <div class="kicker">خطوة دون مساعد</div>
+  <h2>في كل مهمة تعيد تصميمها، أبقِ خطوة واحدة لك وحدك</h2>
+  <div class="cols cols-3">
+    <div class="card c-teal"><h4>قراءة النص كاملًا</h4><p class="small mb0">قبل أن ترى المسودة. تحفظ قدرتك على أن تعرف ما المهم في الزيارة.</p></div>
+    <div class="card c-cyan"><h4>كتابة الخطة بيدك</h4><p class="small mb0">المساعد يكتب التاريخ والنتائج. الخطة تكتبها أنت. تحفظ الحكم السريري.</p></div>
+    <div class="card c-purple"><h4>صياغة السؤال</h4><p class="small mb0">قبل أن تسأل مساعد الأدلة. تحفظ قدرتك على تحديد ما لا تعرفه.</p></div>
+  </div>
+  <div class="callout tip mt"><b>المعيار.</b> الخطوة التي يعتمد عليها حكمك. إن غابت الأداة غدًا، هل تؤدي المهمة؟</div>
+  <aside class="notes"><p>هذا شرط في المشروع الختامي بنص وصف المقرر: خطوة واحدة تبقى دون مساعدة عمدًا. المشاركون يختارونها في آخر المختبر الآتي. ارفض خطوة لا تحفظ شيئًا، مثل طباعة الورقة.</p></aside>
+</section>
+
+<section class="slide" id="baseline" data-lo="LO5" data-n="14" data-session="1">
+  <div class="kicker">خط الأساس</div>
+  <h2>لا تعرف ماذا كسبت إن لم تقس ما كان</h2>
+  <div class="cols cols-2">
+    <table class="t">
+      <tr><th>القياس</th><th>كيف</th></tr>
+      <tr><td><b>الوقت</b></td><td>الدقائق حتى تصير الملاحظة صالحة للتوقيع</td></tr>
+      <tr><td><b>الدقة</b></td><td>الحقائق الصحيحة من عشر حقائق محددة سلفًا</td></tr>
+      <tr><td><b>الأخطاء</b></td><td>عددها بحسب درجة الضرر</td></tr>
+    </table>
+    <div class="stack">
+      <div class="callout note"><b>العمل التحضيري.</b> زيارة واحدة وثّقتها دون مساعد وقستها. أرقامها تدخل سجل الجلسة اليوم.</div>
+      <div class="callout warn small"><b>الوقت وحده يخدع.</b> مسودة أسرع بخطأ عالي الضرر لم تكسب شيئًا.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>من لم ينجز العمل التحضيري ينجزه هذا المساء: الملفات في المجلد. خط الأساس يُقارَن به تشغيلان بمساعدة الذكاء الاصطناعي في المشروع الختامي، بالمقاييس نفسها.</p></aside>
+</section>
+
+<section class="slide" id="check-device-by-use" data-lo="LO5" data-n="15" data-session="1">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>ميزة جديدة في «سجل»</h2>
+  <div class="quiz" data-type="single" data-lo="LO5" data-id="check-device-by-use-q1">
+    <p class="lead">أعلن مورّد «سجل» ميزة جديدة: «يقترح تعديل جرعة الإنسولين من قراءات السكر التي تُذكر في الزيارة». ماذا يتغير؟</p>
+    <div class="opts">
+      <div class="opt" data-why="يظن أن المراجعة تغيّر الغرض: الغرض المقصود يؤخذ مما يقوله الصانع، لا من وجود من يوقّع" data-k="أ">لا شيء: ما زال الممارس يراجع الجرعة المقترحة ويوقّع</div>
+      <div class="opt" data-ok data-k="ب">صار غرضها تدبير علاج: يُسأل المورّد عن إذن التسويق</div>
+      <div class="opt" data-why="يخلط حماية البيانات بصفة الجهاز الطبي: مكان الخوادم لا يحدد هل الأداة جهاز" data-k="ج">لا شيء ما دامت الخوادم داخل المملكة والاتفاقية سارية</div>
+      <div class="opt" data-why="يحدد من تُستخدم معهم الأداة ولا يغيّر غرضها: اقتراح الجرعة تدبير علاج عند أي مريض" data-k="د">تُشغَّل الميزة للمرضى المستقرين فقط، بعد مراجعة الممارس</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> الغرض المقصود هو ما يحدد. أداة تقترح جرعة قُصد بها تدبير علاج مرض، وهذا يدخلها في تعريف الجهاز الطبي.</div>
+  </div>
+  <aside class="notes"><p>الإجابة: الخيار الثاني. إن اختار كثيرون الأول فعد إلى شريحة الغرض المقصود: المراجعة واجبة في الحالين، لكنها لا تعفي من السؤال عن الإذن. الميزة الموصوفة مختلقة للمقرر.</p></aside>
+</section>
+
+<section class="slide lab top" id="lab-1-1" data-auto="lab" data-lab="1.1" data-label="المختبر 1.1" data-n="16" data-session="1">
+  <div class="cols cols-2 mid"><div><div class="lab-tag">المختبر 1.1 · 25 دقيقة</div><h2>فرز ستة استخدامات وخط الأساس</h2><p class="lead small">تفرز ستة استخدامات موصوفة في عيادة الصفصاف بحسب الغرض المقصود، وتدوّن خط أساسك والخطوة التي تبقيها دون مساعد</p><a class="nb" href="../labs/D1_1_sort_uses.html">D1_1_sort_uses.html</a></div><ul class="checklist"><li>اقرأ موجز الحالة والاستخدامات الستة <span class="min">4 د</span></li><li>اكتب لكل استخدام غرضه المقصود وفئته ومن يقرر <span class="min">8 د</span></li><li>قارن جدولك بجدول زميل واحسما الخلاف <span class="min">4 د</span></li><li>اطلب من المساعد أن يعترض على صفّين ودوّن ما غيّرته <span class="min">4 د</span></li><li>دوّن خط أساسك والخطوة التي تبقيها دون مساعد <span class="min">5 د</span></li><li class="stretch">✱ إضافي: أضف استخدامًا سابعًا من عملك، واكتب الجملة التي لو قالها الصانع لصار جهازًا طبيًا</li></ul></div>
+  <aside class="notes"><p>راقب الخطوة الثانية: من يصنف بحسب «هل الأداة ذكية» لا بحسب الغرض؟ ذكّره بالكلمات التي يصف بها الصانع أداته. في الخطوة الخامسة مرّ على من لم ينجز العمل التحضيري. الحل: ثلاثة حول الرعاية (1 و3 و5)، واثنان جهاز طبي (2 و4)، وواحد خارج الغرض (6).</p></aside>
+</section>
+
+<!-- الجلسة 2 -->
+
+<section class="slide section" id="s2" data-auto="section" data-session="2" data-n="17">
+  <div class="kicker">الجلسة 2</div>
+  <h1>أخطاء مساعد التدوين والمراجعة قبل التوقيع</h1>
+  <ul class="bullets outcomes"><li>تسمّي خمسة أنواع من خطأ الملاحظة وتمثّل لكل نوع</li><li>تدقق ملاحظة سطرًا سطرًا مقابل نص زيارتها</li><li>تشرح ما يلزم قبل تسجيل زيارة</li></ul>
+  <div class="sess-no">02</div>
+</section>
+
+<section class="slide" id="two-places-to-fail" data-lo="LO1" data-n="18" data-session="2">
+  <div class="kicker">كيف يعمل مساعد التدوين</div>
+  <h2>مرحلتان، وفي كل مرحلة يدخل الخطأ</h2>
+  <div class="flow">
+    <div class="step c-teal"><b>1 · الزيارة</b>كلام بين شخصين أو ثلاثة</div>
+    <div class="arrow">←</div>
+    <div class="step c-cyan"><b>2 · من الكلام إلى نص</b>«خمس عشرة» قد تُسمع «خمسين»</div>
+    <div class="arrow">←</div>
+    <div class="step c-coral"><b>3 · من النص إلى ملاحظة</b>تلخيص وترتيب: يسقط شيء ويُضاف شيء</div>
+  </div>
+  <div class="callout warn mt"><b>النتيجة واحدة.</b> ملاحظة مرتبة وسلسة، لا يظهر على سطحها أين وقع الخطأ.</div>
+  <aside class="notes"><p>لا نشرح التقنية. يكفي أن يعرف المشارك أن الخطأ نوعان: خطأ سمع وخطأ تلخيص، وأن كليهما يخرج في ملاحظة حسنة الصياغة. المثال مصنوع للشريحة. في ملفات المختبر خطأ من هذا الجنس: لا تقل أين.</p></aside>
+</section>
+
+<section class="slide" id="five-kinds" data-lo="LO1" data-n="19" data-session="2">
+  <div class="kicker">خمسة أنواع</div>
+  <h2>لكل خطأ في الملاحظة اسم</h2>
+  <table class="t">
+    <tr><th>النوع</th><th>ما هو</th><th>مثال</th></tr>
+    <tr><td><b>إسقاط</b></td><td>قيل ولم يُكتب</td><td>دواء للضغط ذكره المريض ضمن أدويته</td></tr>
+    <tr><td><b>اختلاق</b></td><td>كُتب ولم يُقل ولم يحدث</td><td>«الضغط مضبوط»، ولم يُقس الضغط</td></tr>
+    <tr><td><b>نفي</b></td><td>انقلبت «نعم» و«لا»</td><td>«لا دوخة» صارت «يشكو من دوخة»</td></tr>
+    <tr><td><b>جانب</b></td><td>انقلب اليمين واليسار</td><td>الركبة اليمنى صارت اليسرى</td></tr>
+    <tr><td><b>جرعة</b></td><td>المقدار أو المرات أو التدرج</td><td>20 ملغ صارت 40 ملغ</td></tr>
+  </table>
+  <aside class="notes"><p>هذه الأنواع الخمسة هي أنواع ناتج التعلم الأول وأعمدة ورقة التدقيق. الاسم مهم لأنه يحدد أين تبحث: الإسقاط لا يُرى في الملاحظة أصلًا، ويُرى فقط حين تقرأ من النص إلى الملاحظة. الأمثلة مصنوعة للشريحة، وليست من ملفات المختبر.</p></aside>
+</section>
+
+<section class="slide" id="what-studies-found" data-lo="LO1" data-n="20" data-session="2">
+  <div class="kicker">ما وجدته دراسة واحدة</div>
+  <h2>أغلب الملاحظات سليمة، وقليل منها خطر</h2>
+  <div class="cols cols-3">
+    <div class="stat center"><div class="big"><span class="ltr">18%</span></div><div class="lbl">من الملاحظات المراجَعة فيها إسقاط</div></div>
+    <div class="stat center"><div class="big"><span class="ltr">11.5%</span></div><div class="lbl">فيها اختلاق</div></div>
+    <div class="stat center"><div class="big"><span class="ltr">5.3%</span></div><div class="lbl">فيها خطأ ضرره جسيم أو وشيك</div></div>
+  </div>
+  <div class="callout warn mt"><b>والرقم الأهم.</b> في عينة من 960 ملاحظة قيس تعديلها، <span class="ltr">14.9%</span> تُركت دون تعديل كلمة واحدة.</div>
+  <aside class="notes"><p>مشروع تحسين جودة: 31 طبيبًا راجعوا 356 ملاحظة صاغها مساعد تدوين. الإسقاط أكثر الأخطاء، وأغلبها خفيف إلى متوسط. اقرأ الرقم الأخير ببطء: نحو واحدة من كل سبع ملاحظات في العينة لم تُمس. دراسة واحدة على منتج واحد: الأرقام تتغير بتغير المنتج والتخصص.</p><p>المصادر: <span class="en">JMIR Med Inform 2026</span>، دراسة تجريبية استباقية.</p></aside>
+</section>
+
+<section class="slide" id="fluent-is-not-checked" data-lo="LO1" data-n="21" data-session="2">
+  <div class="kicker">السلاسة ليست دليلًا</div>
+  <h2>ما يعجبك في الملاحظة ليس ما يجعلها صحيحة</h2>
+  <div class="cols cols-2">
+    <div class="card c-coral"><h4>التفضيل لا يتبع الدقة</h4><p class="small mb0">56 طبيبًا قيّموا ملاحظات ثلاثة أنظمة تدوين. النظام الذي فضّلوه لم يكن أقلها أخطاء في التدقيق: 8 أخطاء مقابل 3 للنظام الأدق.</p></div>
+    <div class="card c-purple"><h4>النص قد يحمل ما لم يُقل</h4><p class="small mb0">في دراسة لنظام تحويل الكلام إلى نص، نحو <span class="ltr">1%</span> من المقاطع خرج فيها نص فيه عبارات لم تكن في الصوت أصلًا.</p></div>
+  </div>
+  <div class="callout tip mt"><b>العادة.</b> لا تسأل: هل الملاحظة جيدة؟ اسأل: أين قيل هذا السطر؟</div>
+  <aside class="notes"><p>الدراسة الأولى صغيرة واستكشافية، وكتّابها يقولون ذلك: نعرضها لأنها تسمّي ما نشعر به، لا لأنها تحسم. الثانية عن نظام واحد في سنة واحدة. الخلاصة العملية واحدة: الحكم على الملاحظة بالنص، لا بالانطباع.</p><p>المصادر: <span class="en">J Am Med Inform Assoc 2026</span>؛ <span class="en">Koenecke et al. 2024</span>.</p></aside>
+</section>
+
+<section class="slide" id="consent-for-recording" data-lo="LO1" data-n="22" data-session="2">
+  <div class="kicker">قبل أن تسجّل</div>
+  <h2>التسجيل بيانات صحية: موافقة المريض عليه تكون صريحة</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>البيانات الصحية من <b>البيانات الحساسة</b> في نظام حماية البيانات الشخصية.</li>
+      <li>حيث تقوم المعالجة على الموافقة، تكون في البيانات الحساسة <b>موافقة صريحة</b>.</li>
+      <li>الغرض يُشرح قبل الموافقة أو عندها، بوضوح وتحديد.</li>
+      <li>الموافقة تُوثَّق بما يمكن التحقق منه لاحقًا.</li>
+      <li>للمريض أن يرجع عنها.</li>
+    </ul>
+    <div class="chat">
+      <div class="msg user"><span class="who">الطبيبة</span>هل توافق على تسجيل الزيارة ليكتب المساعد مسودة الملاحظة؟ يُحذف التسجيل بعد أن أراجعها وأوقّعها.</div>
+      <div class="msg ai good"><span class="who">المريض</span>نعم، موافق.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>كل نصوص الزيارات في المقرر تبدأ بهذا السؤال: دع المشاركين يلاحظوه في المختبر. ثلاثة أشياء في الجملة: ماذا يُسجَّل، ولماذا، ومتى يُحذف. للمعالجة في النظام أسس أخرى غير الموافقة، وتحديدها لجهتك لا لك: العادة التي ندرّب عليها أن تسأل قبل أن تسجّل. إن رفض المريض تُكتب الملاحظة باليد ولا يتغير شيء في رعايته. طريقة توثيق الموافقة تحددها جهتك: اسأل عنها.</p><p>المصادر: نظام حماية البيانات الشخصية، ولائحته التنفيذية (الموافقة).</p></aside>
+</section>
+
+<section class="slide" id="read-against-transcript" data-lo="LO1" data-n="23" data-session="2">
+  <div class="kicker">طريقة التدقيق</div>
+  <h2>النص أولًا، ثم في اتجاهين</h2>
+  <div class="flow">
+    <div class="step c-teal"><b>1 · النص كاملًا</b>علّم الأدوية والجرعات والجوانب وكل «نعم» و«لا»</div>
+    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · من الملاحظة إلى النص</b>أين قيل هذا السطر؟ يكشف الاختلاق والنفي والجانب والجرعة</div>
+    <div class="arrow frag" data-frag="c">←</div><div class="step c-coral frag" data-frag="c"><b>3 · من النص إلى الملاحظة</b>هل كل ما علّمته مكتوب؟ يكشف الإسقاط</div>
+  </div>
+  <div class="callout tip mt frag"><b>الخلاصة.</b> من يقرأ الملاحظة أولًا يراها سليمة، لأنها تملأ ذاكرته قبل أن يختبرها.</div>
+  <aside class="notes"><p>اضغط مرة لكل خطوة. في عملك المصدر هو التسجيل أو نصه، أو ذاكرتك للزيارة إن راجعت فورًا: كلما تأخرت المراجعة ضعف المصدر. لهذا تُراجَع الملاحظة قبل المريض التالي لا في آخر الدوام.</p></aside>
+</section>
+
+<section class="slide" id="worked-line" data-lo="LO1" data-n="24" data-session="2">
+  <div class="kicker">مثال محلول</div>
+  <h2>سطر واحد من الملاحظة، وسطره من النص</h2>
+  <div class="cols cols-2">
+    <div class="stack">
+      <div class="card c-coral"><h4>الملاحظة</h4><p class="mb0">«سكر الصائم 126.»</p></div>
+      <div class="card c-teal"><h4>نص الزيارة، السطر 3</h4><p class="mb0">«وصلت التحاليل: السكر التراكمي 7.9 في المئة، وسكر الصائم 162، ووظائف الكلى سليمة.»</p></div>
+    </div>
+    <table class="t small">
+      <tr><th>في ورقة التدقيق</th><th>تكتب</th></tr>
+      <tr><td>ما كُتب</td><td>سكر الصائم 126</td></tr>
+      <tr><td>رقم السطر</td><td>3</td></tr>
+      <tr><td>ما قيل فعلًا</td><td>سكر الصائم 162</td></tr>
+      <tr><td>النوع</td><td>رقم انقلبت خانتاه</td></tr>
+    </table>
+  </div>
+  <div class="callout note mt small"><b>ما ليس في ورقة التدقيق.</b> رأيك في صياغة الملاحظة. ندقق الوقائع، لا الأسلوب.</div>
+  <aside class="notes"><p>هذا هو سطر المثال في ورقة التدقيق، وليس من أخطاء المختبر. نبّه إلى أن الرقم المقلوب ليس من الأنواع الخمسة باسمه: إن كان الرقم جرعة دواء فهو خطأ جرعة، وإلا فاكتبه كما هو. الأنواع الخمسة أدوات بحث، لا قفص.</p></aside>
+</section>
+
+<section class="slide" id="check-which-kind" data-lo="LO1" data-n="25" data-session="2">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>أي نوع هذا؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO1" data-id="check-which-kind-q1">
+    <p class="lead">في نص الزيارة: «هل ما زلت تأخذين الأسبرين؟» «لا، أوقفته قبل شهر». وفي الملاحظة: «تستمر على الأسبرين». ما نوع الخطأ؟</p>
+    <div class="opts">
+      <div class="opt" data-why="الإسقاط شيء غاب عن الملاحظة: هنا كُتب شيء، وهو عكس ما قيل" data-k="أ">إسقاط</div>
+      <div class="opt" data-why="الاختلاق شيء لم يُذكر في الزيارة أصلًا: الأسبرين ذُكر، والذي انقلب هو الجواب" data-k="ب">اختلاق</div>
+      <div class="opt" data-ok data-k="ج">نفي</div>
+      <div class="opt" data-why="لا مقدار تغيّر ولا عدد مرات: الذي تغيّر هل يؤخذ الدواء أم لا" data-k="د">جرعة</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> «لا» صارت «نعم». وهذا من أخطر صور النفي: دواء أُوقف يعود إلى قائمة الأدوية.</div>
+  </div>
+  <aside class="notes"><p>الإجابة: نفي. من قال «اختلاق» فاسأله: هل ذُكر الأسبرين في الزيارة؟ الحد بين النوعين: الاختلاق من عدم، والنفي قلب لما قيل. المثال ليس من ملفات المختبر.</p></aside>
+</section>
+
+<section class="slide lab top" id="lab-1-2" data-auto="lab" data-lab="1.2" data-label="المختبر 1.2" data-n="26" data-session="2">
+  <div class="cols cols-2 mid"><div><div class="lab-tag">المختبر 1.2 · 25 دقيقة</div><h2>تدقيق ملاحظتين بحسب نوع الخطأ</h2><p class="lead small">تدقق ملاحظتين صاغهما «سجل» مقابل نصَّي الزيارتين، وتكتب لكل خطأ سطره ونوعه</p><a class="nb" href="../labs/D1_2_audit_notes.html">D1_2_audit_notes.html</a></div><ul class="checklist"><li>اقرأ نص الزيارة <span class="ltr" dir="ltr">C1</span> كاملًا قبل ملاحظتها <span class="min">4 د</span></li><li>دقق ملاحظة <span class="ltr" dir="ltr">C1</span> سطرًا سطرًا واملأ ورقة التدقيق <span class="min">8 د</span></li><li>دقق ملاحظة <span class="ltr" dir="ltr">C2</span> بالطريقة نفسها <span class="min">8 د</span></li><li>قارن العدد والأنواع مع زميل، وعد إلى النص عند الخلاف <span class="min">3 د</span></li><li>اكتب سطر المختبر في سجل الجلسة <span class="min">2 د</span></li><li class="stretch">✱ إضافي: اطلب من المساعد أن يدقق ملاحظة <span class="ltr" dir="ltr">C1</span> بنفسه، وعدّ ما فاته وما اتهمه خطأ</li></ul></div>
+  <aside class="notes"><p>إن أردت أن تسمع القاعة الزيارة الأولى فاقرأها مع مشارك قبل بدء الوقت. راقب: من فتح الملاحظة قبل النص؟ أعده إلى الخطوة الأولى. الحل: خمسة أخطاء في الأولى وستة في الثانية. لا تكشف العدد قبل الخطوة الرابعة. لا يحتاج هذا المختبر إلى مختبر سابق.</p></aside>
+</section>
+
+<!-- الجلسة 3 -->
+
+<section class="slide section" id="s3" data-auto="section" data-session="3" data-n="27">
+  <div class="kicker">الجلسة 3</div>
+  <h1>درجة الضرر والملاحظة المصححة</h1>
+  <ul class="bullets outcomes"><li>تصنف خطأ الملاحظة بحسب ما يصل إلى المريض لو عُمل بها</li><li>تكتب ملاحظة مصححة يسند كل تصحيح فيها سطر من النص</li><li>تبلّغ عن خطأ عالي الضرر عبر القناة المعتمدة</li></ul>
+  <div class="sess-no">03</div>
+</section>
+
+<section class="slide" id="one-question" data-lo="LO1" data-n="28" data-session="3">
+  <div class="kicker">ليست كل الأخطاء سواء</div>
+  <h2>سؤال واحد يزن الخطأ: ماذا يصل إلى المريض؟</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>في المختبر السابق وجدت 11 خطأ في ملاحظتين.</li>
+      <li>لو صححتها بالترتيب الذي وجدتها به، فقد تبدأ بأقلها شأنًا.</li>
+      <li>الوزن يحدد <b>ما تصححه أولًا</b>، و<b>ما تبلّغ عنه</b>، و<b>ما لا يجوز أن يفوتك</b>.</li>
+    </ul>
+    <div class="callout tip"><b>السؤال.</b> لو عُمل بالملاحظة كما هي، دون أن يراجعها أحد، ماذا يصل إلى المريض؟</div>
+  </div>
+  <aside class="notes"><p>اربط بشرط النجاح: في الاختبار المراقب لا يكفي أن تجد أغلب الأخطاء، بل كل خطأ عالي الضرر. من يجد عشرة أخطاء منخفضة ويفوته خطأ الجرعة لم ينجح.</p></aside>
+</section>
+
+<section class="slide" id="three-levels" data-lo="LO1" data-n="29" data-session="3">
+  <div class="kicker">سلم درجة الضرر</div>
+  <h2>ثلاث درجات</h2>
+  <table class="t">
+    <tr><th>الدرجة</th><th>متى</th><th>أمثلة</th></tr>
+    <tr class="hl"><td><b>عالٍ</b></td><td>قد يصل إلى المريض ضرر مباشر</td><td>جرعة خاطئة، دواء لم يوصف، دواء أُوقف ولم يُكتب إيقافه، حساسية أُسقطت، عَرَض خطر نُفي</td></tr>
+    <tr><td><b>متوسط</b></td><td>يضلل قرارًا لاحقًا أو يؤخره، ويُكتشف غالبًا</td><td>جانب خاطئ، فحص لم يُجرَ كُتب أنه أُجري، إحالة أُسقطت</td></tr>
+    <tr><td><b>منخفض</b></td><td>لا يغيّر الرعاية</td><td>تفصيل اجتماعي مختلق</td></tr>
+  </table>
+  <div class="callout note mt small"><b>عند الشك بين درجتين</b> اختر الأعلى واكتب السبب. السلم من وضع المقرر للتدريب، لا معيار منشور.</div>
+  <aside class="notes"><p>السلم من وضع المقرر، لا معيارًا منشورًا: قل ذلك. جهات كثيرة عندها سلم لتصنيف الحوادث، فاستخدم سلم جهتك في عملك. ما يهم هنا العادة: أن تزن قبل أن تصحح.</p></aside>
+</section>
+
+<section class="slide" id="same-kind-different-harm" data-lo="LO1" data-n="30" data-session="3">
+  <div class="kicker">النوع لا يحدد الدرجة</div>
+  <h2>ثلاثة أخطاء نفي، بثلاث درجات</h2>
+  <div class="cols cols-3">
+    <div class="card c-coral"><h4>عالٍ</h4><p class="small">«لا ألم في الصدر»</p><p class="small mb0">والمريض وصف ألمًا في الصدر عند الجهد. عَرَض خطر نُفي، فقد لا يُحال.</p></div>
+    <div class="card c-amber"><h4>متوسط</h4><p class="small">«يشكو من صداع»</p><p class="small mb0">والمريض نفاه. يقود إلى فحوص لا لزوم لها، ويُكتشف عند سؤاله.</p></div>
+    <div class="card c-teal"><h4>منخفض</h4><p class="small">«لا يمارس الرياضة»</p><p class="small mb0">والمريض قال إنه يمشي أحيانًا. لا يغيّر الرعاية اليوم.</p></div>
+  </div>
+  <div class="callout warn mt"><b>الخطأ المعتاد.</b> «كل خطأ جرعة عالٍ وكل اختلاق منخفض». انظر إلى ما أخطأت فيه الملاحظة، لا إلى اسم الخطأ.</div>
+  <aside class="notes"><p>الأمثلة الثلاثة مصنوعة للشريحة. في ملاحظات المختبر خطأ نفي بكل درجة من الثلاث: لا تقل أين، فوزنها مطلوب في المختبر. في الملاحظات الثلاث 16 خطأ: 7 عالية و7 متوسطة و2 منخفضان.</p></aside>
+</section>
+
+<section class="slide" id="signature-means" data-lo="LO1" data-n="31" data-session="3">
+  <div class="kicker">التوقيع</div>
+  <h2>حين توقّع، الملاحظة ملاحظتك</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>المساعد كتب المسودة. <b>أنت كتبت الملاحظة</b> حين وقّعت.</li>
+      <li>من يقرأ بعدك يثق في الملاحظة لأن عليها اسمك.</li>
+      <li>«المساعد أخطأ» ليست جوابًا عند مراجعة حادثة.</li>
+      <li>المساءلة والمسؤولية من مبادئ أخلاقيات الذكاء الاصطناعي: تبقى على الإنسان.</li>
+    </ul>
+    <div class="stack">
+      <div class="card c-navy"><h4>قاعدة العيادة</h4><p class="small mb0">لا توقيع قبل قراءة الملاحظة مقابل النص، والأدوية والحساسية أولًا.</p></div>
+      <div class="callout warn small"><b>تذكّر الرقم.</b> ملاحظة من كل سبع في تلك الدراسة لم تُعدَّل فيها كلمة.</div>
+    </div>
+  </div>
+  <aside class="notes"><p>قاعدة العيادة هنا مثال من الحالة، وليست نصًا نظاميًا. اسأل: ما قاعدة جهتك؟ إن لم تكن مكتوبة فهذه توصية يحملها المشارك إلى جهته.</p><p>المصادر: سدايا، مبادئ أخلاقيات الذكاء الاصطناعي (المساءلة والمسؤولية).</p></aside>
+</section>
+
+<section class="slide" id="correct-with-line" data-lo="LO1" data-n="32" data-session="3">
+  <div class="kicker">الملاحظة المصححة</div>
+  <h2>كل تصحيح يحمل رقم سطره</h2>
+  <div class="cols cols-2">
+    <div class="card c-coral"><h4>المسودة</h4><p class="small mb0">بدء أتورفاستاتين 40 ملغ مساءً.</p></div>
+    <div class="card c-teal"><h4>بعد التصحيح</h4><p class="small mb0">بدء أتورفاستاتين 20 ملغ مساءً (السطر 11).</p></div>
+  </div>
+  <ul class="bullets mt">
+    <li>رقم السطر يجعل تصحيحك قابلًا للمراجعة: من يشك يفتح النص.</li>
+    <li>تصحيح بلا سطر قد يكون من ذاكرتك، والذاكرة ليست مصدرًا.</li>
+  </ul>
+  <aside class="notes"><p>المثال مصنوع للشريحة. في العمل الفعلي لا تُكتب أرقام الأسطر في الملاحظة النهائية: هي عادة تدريب، وتبقى في ورقة التدقيق. المطلوب في المختبر أن تظهر، لأن المراجعة المباشرة في المشروع الختامي تسأل: من أين هذا التصحيح؟</p></aside>
+</section>
+
+<section class="slide" id="fabricated-needs-statement" data-lo="LO1" data-n="33" data-session="3">
+  <div class="kicker">ما اختُلق</div>
+  <h2>الحذف لا يكفي دائمًا: اكتب ما قيل فعلًا</h2>
+  <table class="t">
+    <tr><th>في المسودة</th><th>في النص</th><th>في الملاحظة المصححة</th></tr>
+    <tr><td>«طُلب تخطيط قلب»</td><td>«لا حاجة إلى تخطيط قلب اليوم»</td><td>لا تخطيط قلب في هذه الزيارة</td></tr>
+    <tr><td>«الضغط مضبوط على العلاج»</td><td>«لم أقس الضغط اليوم»</td><td>لم يُقس الضغط في هذه الزيارة</td></tr>
+    <tr><td>«يعمل في مصنع»</td><td>لم يقله أحد</td><td>يُحذف</td></tr>
+  </table>
+  <div class="callout tip mt"><b>القاعدة.</b> إن كان غياب السطر يترك سؤالًا عند من يقرأ، فاكتب الجواب.</div>
+  <aside class="notes"><p>السطر الأول: لو حُذف فقط لسأل من يقرأ بعدك: هل طُلب التخطيط أم نُسي؟ السطر الثاني أوضح: قياس الضغط متوقع في زيارة سكري، وغيابه يُقرأ نسيانًا لا قرارًا. الأمثلة مصنوعة للشريحة.</p></aside>
+</section>
+
+<section class="slide" id="report-back" data-lo="LO1" data-n="34" data-session="3">
+  <div class="kicker">بعد التصحيح</div>
+  <h2>الخطأ العالي يُبلَّغ عنه، لا يُصحَّح فقط</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>صححت ملاحظتك. والملاحظة التالية عند زميلك؟</li>
+      <li>خطأ يتكرر بنمط واحد يخص الأداة، لا يخصك وحدك.</li>
+      <li>البلاغ سطران: ما الخطأ، وفي أي نوع من الزيارات، وماذا كان سيحدث.</li>
+      <li>يُرسل عبر القناة المعتمدة في جهتك، بلا اسم المريض.</li>
+    </ul>
+    <div class="card c-purple"><h4>مثال</h4><p class="small mb0">«سجل» كتب 60 وحدة إنسولين بدل 16 في زيارة قيل فيها العدد بالكلمات. لو وُقّعت الملاحظة لصُرفت جرعة تقارب أربعة أضعاف المقصود لمريضة يهبط سكرها.</p></div>
+  </div>
+  <aside class="notes"><p>في الحالة، البلاغ يذهب إلى نجاة العتيبي، مسؤولة المعلومات الصحية. اسأل المشاركين: إلى من يذهب في جهتكم؟ من لا يعرف، فهذا واجبه قبل أن يستخدم أي مساعد تدوين.</p></aside>
+</section>
+
+<section class="slide" id="check-high-harm" data-lo="LO1" data-n="35" data-session="3">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>أي خطأ من هذه عالي الضرر؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO1" data-id="check-high-harm-q1">
+    <p class="lead">أربعة أخطاء في ملاحظة مريض سكري على الأقراص. أيها قد يصل ضرره إلى المريض مباشرة لو عُمل بالملاحظة كما هي؟</p>
+    <div class="opts">
+      <div class="opt" data-why="اختلاق، لكنه تفصيل اجتماعي لا يغيّر الرعاية: يزن الخطأ بغرابته لا بأثره" data-k="أ">كُتب أنه يسكن وحده، ولم يقل ذلك أحد في الزيارة</div>
+      <div class="opt" data-why="يضلل ويُكتشف غالبًا عند فحص العين: يساوي بين كل خطأ في معلومة طبية وبين الضرر المباشر" data-k="ب">كُتب أن إعتام العدسة في العين اليسرى، وهو في اليمنى</div>
+      <div class="opt" data-why="إحالة لم تحدث تُكتشف حين لا يصل موعدها: تؤخر ولا تضر مباشرة" data-k="ج">كُتب أنه أُحيل إلى أخصائي التغذية، ولم يُحَل إليه</div>
+      <div class="opt" data-ok data-k="د">بقيت جرعة الغليبنكلاميد القديمة، وقد خُفضت بعد هبوط</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> دواء يزيد هبوط السكر خُفضت جرعته لهذا السبب، والملاحظة تبقي الجرعة القديمة. من يصرف من الملاحظة يصرفها.</div>
+  </div>
+  <aside class="notes"><p>الإجابة: الخيار الرابع، وهو خطأ جرعة. من اختار الثاني ساوى بين الخطأ في معلومة طبية والضرر المباشر. المثال مصنوع للشريحة وليس من ملفات المختبر.</p></aside>
+</section>
+
+<section class="slide lab top" id="lab-1-3" data-auto="lab" data-lab="1.3" data-label="المختبر 1.3" data-n="36" data-session="3">
+  <div class="cols cols-2 mid"><div><div class="lab-tag">المختبر 1.3 · 30 دقيقة</div><h2>درجة الضرر، وتدقيق الملاحظة الثالثة وتصحيحها</h2><p class="lead small">تصنف أحد عشر خطأ بحسب درجة الضرر، ثم تدقق الملاحظة الثالثة كاملة وتكتبها مصححة</p><a class="nb" href="../labs/D1_3_harm_and_correction.html">D1_3_harm_and_correction.html</a></div><ul class="checklist"><li>اقرأ سلم درجة الضرر وصنّف الأخطاء الأحد عشر <span class="min">8 د</span></li><li>دقق ملاحظة <span class="ltr" dir="ltr">C3</span> مقابل نص زيارتها: السطر والنوع والدرجة <span class="min">10 د</span></li><li>اكتب الملاحظة المصححة مع رقم السطر لكل تصحيح <span class="min">8 د</span></li><li>اكتب بلاغًا من سطرين عن أعلى خطأ ضررًا، وسطر سجل الجلسة <span class="min">4 د</span></li><li class="stretch">✱ إضافي: اكتب قاعدة مراجعة من ثلاثة بنود تقرؤها قبل كل توقيع، مرتبة بحسب درجة الضرر</li></ul></div>
+  <aside class="notes"><p>هذا المختبر لا يحتاج إلى ورقة المختبر السابق: قائمة الأخطاء الأحد عشر في الملف <span class="en">audit_found_C1_C2.csv</span>. راقب الخطوة الثالثة: من استعان بالمساعد في إعادة الكتابة، هل قرأ مخرجه مقابل النص؟ الحل: خمسة أخطاء في الزيارة الثالثة، منها اثنان عاليان: سقوط التدرج في الجرعة، ومضاد حيوي لم يوصف.</p></aside>
+</section>
+
+<!-- الجلسة 4 -->
+
+<section class="slide section" id="s4" data-auto="section" data-session="4" data-n="37">
+  <div class="kicker">الجلسة 4</div>
+  <h1>ورقة المريض بلغتين</h1>
+  <ul class="bullets outcomes"><li>تطابق ورقة المريض بورقة المصدر حقيقة حقيقة</li><li>تبسّط نصًا عربيًا وإنجليزيًا دون أن تغيّر معناه</li><li>تكتب سؤالًا يعيد به المريض التعليمة بكلماته</li></ul>
+  <div class="sess-no">04</div>
+</section>
+
+<section class="slide" id="leaflet-is-care" data-lo="LO2" data-n="38" data-session="4">
+  <div class="kicker">ورقة المريض</div>
+  <h2>ما يفعله المريض في بيته يتبع الورقة، لا الزيارة</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>مهدي خرج من الزيارة بدواء جديد وورقة.</li>
+      <li>بعد أسبوع لن يتذكر ما قيل. سيقرأ الورقة.</li>
+      <li>الورقة تفشل بطريقتين: <b>خاطئة</b>، أو <b>صحيحة ولا تُفهم</b>.</li>
+      <li>المساعد يحسّن الثانية بسهولة، وقد يُدخل الأولى وهو يفعل.</li>
+    </ul>
+    <div class="stack">
+      <div class="card c-coral"><h4>خاطئة</h4><p class="small mb0">«خذ حبتين كل يوم». والمصدر يقول حبة واحدة.</p></div>
+      <div class="card c-amber"><h4>صحيحة ولا تُفهم</h4><p class="small mb0">«من المضاعفات النادرة الحماض الكيتوني».</p></div>
+    </div>
+  </div>
+  <aside class="notes"><p>الدواء في الحالة أُضيف في الزيارة الأولى. ورقة المصدر في المختبر كُتبت للمقرر وروجعت حقائقها على النشرة الرسمية للدواء، وهي مادة تدريبية لا تُعطى لمريض. قل ذلك مرة هنا ومرة عند المختبر.</p></aside>
+</section>
+
+<section class="slide" id="accuracy-first" data-lo="LO2" data-n="39" data-session="4">
+  <div class="kicker">الدقة أولًا</div>
+  <h2>طابق الورقة بمصدرها في اتجاهين</h2>
+  <div class="flow">
+    <div class="step c-teal"><b>1 · من المصدر إلى الورقة</b>كل حقيقة: موجودة؟ صحيحة الرقم؟</div>
+    <div class="arrow">←</div>
+    <div class="step c-cyan"><b>2 · من الورقة إلى المصدر</b>كل جملة: لها سطر في المصدر؟</div>
+    <div class="arrow">←</div>
+    <div class="step c-coral"><b>3 · ثم بسّط</b>وطابق من جديد بعد التبسيط</div>
+  </div>
+  <div class="callout warn mt"><b>الترتيب مهم.</b> من يبسّط مسودة خاطئة يخرج بنص سهل وخاطئ، وهو أخطر من الصعب: سيُقرأ ويُعمل به.</div>
+  <aside class="notes"><p>هذه طريقة تدقيق الملاحظة نفسها، بمصدر آخر. الاتجاه الثاني يكشف ما أضافه المساعد من عنده: في مسودة المختبر جملة عن حماية القلب «عند جميع المرضى» لا سطر لها في المصدر.</p></aside>
+</section>
+
+<section class="slide" id="plain-language-rules" data-lo="LO2" data-n="40" data-session="4">
+  <div class="kicker">اللغة المبسطة</div>
+  <h2>خمس قواعد تكفي لورقة من صفحة</h2>
+  <ol class="bullets">
+    <li><b>خاطب المريض مباشرة:</b> «خذ»، «اشرب»، «اتصل».</li>
+    <li><b>جملة قصيرة:</b> لا تزيد على 20 كلمة.</li>
+    <li><b>تعليمة واحدة في الجملة.</b></li>
+    <li><b>كلمات المريض:</b> اشرح المصطلح أو احذفه.</li>
+    <li><b>علامات الخطر في قائمة ظاهرة،</b> ومعها ما يفعله المريض.</li>
+  </ol>
+  <div class="callout note mt small"><b>هذه قواعد عمل من وضع المقرر.</b> إن كان لجهتك دليل للكتابة للمرضى فهو المرجع.</div>
+  <aside class="notes"><p>قائمة التحقق في المختبر مبنية على هذه القواعد الخمس، ومعها الدقة. الحد 20 كلمة قاعدة عمل لا معيارًا منشورًا. للإنجليزية نضيف مستوى القراءة: الصف الثامن أو أقل.</p></aside>
+</section>
+
+<section class="slide" id="arabic-register" data-lo="LO2" data-n="41" data-session="4">
+  <div class="kicker">مستوى العربية</div>
+  <h2>التعليمة نفسها بثلاثة مستويات</h2>
+  <table class="t">
+    <tr><th>المستوى</th><th>الجملة</th><th>المشكلة</th></tr>
+    <tr><td>رسمي</td><td>«يُنصح بالإكثار من تناول السوائل نظرًا لزيادة الإدرار»</td><td>مبني للمجهول، وكلمة لا يعرفها المريض</td></tr>
+    <tr class="hl"><td>فصحى مبسطة</td><td>«الدواء يجعلك تتبول أكثر. اشرب ماء كافيًا»</td><td>يفهمها قارئ من أي بلد عربي</td></tr>
+    <tr><td>عامية</td><td>جملة بلهجة منطقة واحدة</td><td>قريبة ممن يتكلمها، وغريبة مكتوبةً على غيره</td></tr>
+  </table>
+  <div class="callout tip mt"><b>للورقة المكتوبة:</b> فصحى مبسطة. العامية مكانها الشرح الشفهي عند تسليم الورقة.</div>
+  <aside class="notes"><p>لا يوجد هنا مقياس معتمد لمستوى قراءة العربية كما في الإنجليزية: نعتمد طول الجملة، والمصطلحات، وقراءة زميل أو مريض. إن طلبت من المساعد «لغة مبسطة» فقد يعطيك عامية أو رسمية: سمِّ المستوى في الأمر. هذا اختيار المقرر، ولجهتك أن تقرر غيره لمرضاها.</p></aside>
+</section>
+
+<section class="slide" id="before-after" data-lo="LO2" data-n="42" data-session="4">
+  <div class="kicker">قبل وبعد</div>
+  <h2>أربعون كلمة صارت جملتين</h2>
+  <div class="cols cols-2">
+    <div class="card c-coral"><h4>مسودة المساعد</h4><p class="small mb0">«ينتمي هذا الدواء إلى مثبطات الناقل المشارك للصوديوم والغلوكوز من النوع الثاني، وهي فئة دوائية تعمل على زيادة الإفراغ البولي للغلوكوز عبر الكلى مما يؤدي إلى انخفاض مستويات السكر في الدم…»</p></div>
+    <div class="card c-teal"><h4>النسخة المرجعية</h4><p class="mb0">«الدواء يُخرج السكر مع البول، فتتبول أكثر. اشرب ماء كافيًا.»</p></div>
+  </div>
+  <div class="bars mt">
+    <div class="row"><span>أطول جملة في المسودة العربية</span><div class="bar c-coral" style="--w:100%"></div><span class="val">40 كلمة</span></div>
+    <div class="row"><span>أطول جملة في النسخة المرجعية</span><div class="bar c-teal" style="--w:28%"></div><span class="val">11 كلمة</span></div>
+  </div>
+  <aside class="notes"><p>الأرقام من تشغيل حل المختبر 1.4. النسخة المرجعية أسقطت اسم الفئة الدوائية كله: المريض لا يحتاجه ليأخذ دواءه. ما بقي هو ما سيلاحظه وما يفعله.</p></aside>
+</section>
+
+<section class="slide" id="translation-is-not-copy" data-lo="LO2" data-n="43" data-session="4">
+  <div class="kicker">نسختان</div>
+  <h2>الإنجليزية ليست ترجمة للعربية: كلتاهما تعود إلى المصدر</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>إن ترجمت نسخة من الأخرى انتقل خطؤها معها.</li>
+      <li>طابق كل نسخة بالمصدر، ثم قارن النسختين.</li>
+      <li>الأرقام أول ما تقارن: الجرعة، والوقت، وعدد الأيام.</li>
+      <li>المريض قد يقرأ نسخة وقريبه الأخرى: يجب أن تقولا الشيء نفسه.</li>
+    </ul>
+    <div class="bars">
+      <div class="row"><span>مستوى قراءة المسودة الإنجليزية</span><div class="bar c-coral" style="--w:100%"></div><span class="val">18.1</span></div>
+      <div class="row"><span>مستوى قراءة النسخة المرجعية</span><div class="bar c-teal" style="--w:21%"></div><span class="val">3.8</span></div>
+      <div class="row"><span>الحد في قائمة التحقق</span><div class="bar c-navy" style="--w:44%"></div><span class="val">8</span></div>
+    </div>
+  </div>
+  <aside class="notes"><p>مستوى القراءة هنا بمعادلة <span class="en">Flesch-Kincaid</span> كما يحسبها حل المختبر 1.4: طول الجملة وعدد مقاطع الكلمة. رقم تقريبي: مساعدك قد يحسب رقمًا قريبًا لا مطابقًا. في المسودة الإنجليزية خطأ في عدد الأيام قبل العملية ليس في العربية: هذا ما تكشفه مقارنة النسختين.</p></aside>
+</section>
+
+<section class="slide" id="teach-back" data-lo="LO2" data-n="44" data-session="4">
+  <div class="kicker">التحقق مع المريض</div>
+  <h2>سؤال واحد يختبر الورقة: «قل لي بكلماتك»</h2>
+  <div class="cols cols-2">
+    <div class="chat">
+      <div class="msg user"><span class="who">الممرضة</span>قبل أن تغادر، قل لي بكلماتك: ماذا تفعل إذا أصابك قيء؟</div>
+      <div class="msg ai good"><span class="who">المريض</span>أوقف الحبة الجديدة وأطلب مساعدة طبية فورًا.</div>
+    </div>
+    <ul class="bullets">
+      <li>«هل فهمت؟» جوابها دائمًا نعم.</li>
+      <li>اسأل عن أخطر تعليمة في الورقة، لا عن أسهلها.</li>
+      <li>إن أخطأ المريض فالورقة هي التي تُعدَّل.</li>
+    </ul>
+  </div>
+  <aside class="notes"><p>القيء من علامات الخطر في ورقة المصدر (F9)، وهي من نشرة الدواء: يوقف الدواء ويطلب مساعدة طبية فورًا. أما الإسهال فقاعدة أيام المرض، وهي قاعدة العيادة الافتراضية: في عملك تُتبع قاعدة جهتك. السؤال يُكتب في آخر الورقة نفسها، كما في النسخة المرجعية، ليذكّر من يسلّمها. في المختبر لا مريض: الزميل يقوم مقامه إن بقي وقت.</p></aside>
+</section>
+
+<section class="slide" id="check-accuracy-not-readability" data-lo="LO2" data-n="45" data-session="4">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>أي جملة تفشل في الدقة، لا في سهولة القراءة؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO2" data-id="check-accuracy-not-readability-q1">
+    <p class="lead">ورقة المصدر تقول: حبة واحدة في الصباح، ويشرب المريض ماء كافيًا، ويوقف الدواء مؤقتًا عند الإسهال ويتصل بالعيادة. أي جملة من مسودة الورقة تخالف المصدر؟</p>
+    <div class="opts">
+      <div class="opt" data-ok data-k="أ">«خذ حبتين كل يوم في الصباح»</div>
+      <div class="opt" data-why="الجملة صحيحة المعنى: عيبها المبني للمجهول، وهذا عيب سهولة قراءة" data-k="ب">«يُنصح بالإكثار من شرب الماء»</div>
+      <div class="opt" data-why="الجملة صحيحة المعنى: عيبها أنها لا تخاطب المريض ولا تقول من يتصل، وهذا عيب سهولة قراءة" data-k="ج">«عند الإسهال يوقف الدواء مؤقتًا ويُتصل بالعيادة»</div>
+      <div class="opt" data-why="الجملة صحيحة المعنى: عيبها مصطلح بلا شرح، وهذا عيب سهولة قراءة" data-k="د">«يزيد الدواء الإفراغ البولي للغلوكوز»</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> الجملة الأولى أسهل الأربع وأوضحها، وهي الوحيدة الخاطئة. السهولة لا تدل على الصحة.</div>
+  </div>
+  <aside class="notes"><p>الإجابة: الخيار الأول. من اختار جملة أخرى خلط بين البابين في قائمة التحقق. اسأل: أي الأربع ستُعمل بها دون تردد؟ الأولى، ولهذا هي الأخطر.</p></aside>
+</section>
+
+<section class="slide lab top" id="lab-1-4" data-auto="lab" data-lab="1.4" data-label="المختبر 1.4" data-n="46" data-session="4">
+  <div class="cols cols-2 mid"><div><div class="lab-tag">المختبر 1.4 · 30 دقيقة</div><h2>ورقة المريض بالعربية والإنجليزية</h2><p class="lead small">تراجع مسودتَي ورقة عن دواء أُضيف، وتخرج بنسختين تجتازان قائمة التحقق للدقة وسهولة القراءة</p><a class="nb" href="../labs/D1_4_patient_information.html">D1_4_patient_information.html</a></div><ul class="checklist"><li>اقرأ ورقة المصدر وعلّم ما يجب ألا يسقط <span class="min">4 د</span></li><li>طابق المسودة العربية بالمصدر حقيقة حقيقة <span class="min">7 د</span></li><li>أعد كتابة العربية بلغة مبسطة، ولك أن تستعين بالمساعد <span class="min">7 د</span></li><li>طابق المسودة الإنجليزية وأعد كتابتها <span class="min">7 د</span></li><li>املأ قائمة التحقق للنسختين، وسطر سجل الجلسة <span class="min">5 د</span></li><li class="stretch">✱ إضافي: اطلب من المساعد أن يحسب مستوى القراءة للنسخة الإنجليزية، وقارن حسابه بقراءة زميل</li></ul></div>
+  <aside class="notes"><p>ذكّر: ورقة المصدر مادة تدريبية. وذكّر بحذف اسم المريض قبل أي لصق في المساعد. راقب الخطوة الثالثة: من بسّط قبل أن يصحح؟ الحل: سبعة عيوب دقة وعيبا سهولة قراءة في العربية، وأربعة عيوب دقة وعيب سهولة قراءة في الإنجليزية، منها قاعدة أيام المرض الساقطة كلها من الإنجليزية، والنصف العاجل من F6 الساقط من المسودتين.</p></aside>
+</section>
+
+<section class="slide" id="wrap-up" data-n="47" data-session="4">
+  <div class="kicker">خلاصة اليوم</div>
+  <h2>ثلاثة أشياء تبقى معك</h2>
+  <div class="cols cols-3">
+    <div class="card c-teal"><h4>الغرض يحدد</h4><p class="small mb0">ما يحيط بالرعاية تراجعه مقابل مصدر. ما قُصد به تشخيص أو علاج جهاز طبي يلزمه إذن.</p></div>
+    <div class="card c-coral"><h4>النص قبل الملاحظة</h4><p class="small mb0">اقرأ في اتجاهين، وزن كل خطأ بما يصل إلى المريض. التوقيع توقيعك.</p></div>
+    <div class="card c-cyan"><h4>الدقة قبل السهولة</h4><p class="small mb0">ورقة المريض تعود إلى مصدرها حقيقة حقيقة، ثم تُبسَّط، ثم تُطابَق من جديد.</p></div>
+  </div>
+  <aside class="notes"><p>اسأل كل مشارك عن خطأ واحد فاته اليوم ولماذا فاته. الجواب المعتاد: قرأت الملاحظة أولًا. هذا ما نريد أن يبقى.</p></aside>
+</section>
+
+<section class="slide dark" id="next" data-n="48" data-session="4">
+  <div class="kicker">غدًا</div>
+  <h2>الدليل عند مصدره، والبيانات الصحية</h2>
+  <ul class="bullets">
+    <li>تتحقق من أجوبة «يقين» عن أربعة أسئلة سريرية: ادعاءً ادعاءً، عند المصدر.</li>
+    <li>تقرر أي بيانات تدخل أي أداة، وتزيل المعرِّفات من ملف مريض.</li>
+    <li><b>أحضر:</b> ورقة خط الأساس إن لم تدوّنها اليوم، واسم الدليل الإرشادي المعتمد في جهتك للسكري.</li>
+  </ul>
+  <aside class="notes"><p>مختبرا الغد الأولان يحتاجان إلى اتصال بالإنترنت لفتح سجلات الدراسات في <span class="en">PubMed</span>. تأكد من الشبكة في القاعة قبل الصباح.</p></aside>
+</section>
+</div>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T19:37:33Z","version":"2027.1.0","commit":"2838756"},"course":{"id":"use-pro-209","code":"USE-PRO-209","title":"الذكاء الاصطناعي للعاملين في المهن السريرية والصحية","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-pro-209/","repo":"SDAIAAcademy/use-pro-209","home":"../index.html"},"deck":{"id":"day1","kind":"day","day":1,"label":"اليوم 1","title":"ما يحيط بالرعاية: الملاحظة وورقة المريض","prev":null,"next":"day2.html","md":"day1.md","alt":{}},"sessions":[{"n":1,"label":"الجلسة 1","title":"حدود الذكاء الاصطناعي في العمل السريري","slide":"s1","outcomes":["تفرّق بين استخدام يحيط بالرعاية واستخدام يدخل القرار السريري","تحدد من الغرض المقصود هل الأداة جهاز طبي","تختار خطوة تبقيها دون مساعد وتعلل اختيارك"],"minutes":50,"lab":{"id":"1.1","title":"فرز ستة استخدامات وخط الأساس","minutes":25,"href":"../labs/D1_1_sort_uses.html"}},{"n":2,"label":"الجلسة 2","title":"أخطاء مساعد التدوين والمراجعة قبل التوقيع","slide":"s2","outcomes":["تسمّي خمسة أنواع من خطأ الملاحظة وتمثّل لكل نوع","تدقق ملاحظة سطرًا سطرًا مقابل نص زيارتها","تشرح ما يلزم قبل تسجيل زيارة"],"minutes":50,"lab":{"id":"1.2","title":"تدقيق ملاحظتين بحسب نوع الخطأ","minutes":25,"href":"../labs/D1_2_audit_notes.html"}},{"n":3,"label":"الجلسة 3","title":"درجة الضرر والملاحظة المصححة","slide":"s3","outcomes":["تصنف خطأ الملاحظة بحسب ما يصل إلى المريض لو عُمل بها","تكتب ملاحظة مصححة يسند كل تصحيح فيها سطر من النص","تبلّغ عن خطأ عالي الضرر عبر القناة المعتمدة"],"minutes":60,"lab":{"id":"1.3","title":"درجة الضرر، وتدقيق الملاحظة الثالثة وتصحيحها","minutes":30,"href":"../labs/D1_3_harm_and_correction.html"}},{"n":4,"label":"الجلسة 4","title":"ورقة المريض بلغتين","slide":"s4","outcomes":["تطابق ورقة المريض بورقة المصدر حقيقة حقيقة","تبسّط نصًا عربيًا وإنجليزيًا دون أن تغيّر معناه","تكتب سؤالًا يعيد به المريض التعليمة بكلماته"],"minutes":60,"lab":{"id":"1.4","title":"ورقة المريض بالعربية والإنجليزية","minutes":30,"href":"../labs/D1_4_patient_information.html"}}],"slides":[{"id":"title","n":1,"title":"ما يحيط بالرعاية: الملاحظة وورقة المريض","kind":"title","session":0,"hash":"0a4ff4ca","md":"#### [day1#title] ما يحيط بالرعاية: الملاحظة وورقة المريض\n\n*أكاديمية سدايا · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية*\n\nاليوم 1: حدود الاستخدام، وتدقيق ما يكتبه مساعد التدوين قبل التوقيع، وورقة المريض بلغتين\n\nمسار الطلاقة في البيانات والذكاء الاصطناعي · يومان تدريبيان + يوم للمشروع الختامي · 4 جلسات · 4 مختبرات · USE-PRO-209","notes":"رحّب بالمشاركين واسأل كل واحد عن مهنته في جملة: طبيب، ممرض، صيدلي، مثقِّف صحي، أخصائي تغذية. ثم اسأل: من يستخدم مساعد تدوين أو مساعد محادثة في عمله اليوم؟ ومن أحضر ورقة خط الأساس من العمل التحضيري؟ إيقاع اليوم: أربع جلسات على عيادة واحدة، في كل جلسة مختبر: 25 دقيقة في الجلستين الأوليين، و30 في الثالثة والرابعة.","minutes":null,"lo":[]},{"id":"agenda","n":2,"title":"ما يحيط بالرعاية: الملاحظة وورقة المريض","kind":"content","session":0,"hash":"a243e018","md":"#### [day1#agenda] ما يحيط بالرعاية: الملاحظة وورقة المريض\n\n*اليوم*\n\n- **الجلسة 1 · حدود الذكاء الاصطناعي في العمل السريري**: ما يحيط بالرعاية وما هو قرار سريري، ومتى يصير دعم القرار جهازًا طبيًا، والانحياز إلى الأتمتة وضمور المهارة\n- **الجلسة 2 · أخطاء مساعد التدوين والمراجعة قبل التوقيع**: كيف يخطئ مساعد التدوين، وخمسة أنواع من الخطأ، والموافقة على التسجيل، والقراءة مقابل نص الزيارة\n- **الجلسة 3 · درجة الضرر والملاحظة المصححة**: ثلاث درجات للضرر، والنوع نفسه بدرجات مختلفة، ومعنى التوقيع، والتصحيح مع سطره\n- **الجلسة 4 · ورقة المريض بلغتين**: اللغة المبسطة، ومستوى العربية وسهولة القراءة، والدقة مقابل ورقة المصدر، والتحقق مع المريض","notes":"الجلسة الأولى ترسم الحد. الثانية والثالثة عمل واحد في نصفين: نجد أخطاء الملاحظة ثم نزنها ونصححها. الرابعة عن ورقة المريض. الاستراحات بزر B.","minutes":null,"lo":[]},{"id":"one-clinic-one-rule","n":3,"title":"عيادة واحدة في اليومين، وقاعدة واحدة","kind":"content","session":0,"hash":"44a3d0cc","md":"#### [day1#one-clinic-one-rule] عيادة واحدة في اليومين، وقاعدة واحدة\n\n*الحالة والقاعدة*\n\n- **عيادة الصفصاف للسكري.** جهة افتراضية: ستة ممارسين ونحو 4,200 مريض مسجل. أقرّت مساعد التدوين «سِجِلّ» ومساعد الأدلة «يقين».\n- **دورك.** ممارس في العيادة. تراجع ما يكتبه «سجل»، وتعدّ ورقة لمريض، وتتحقق مما يقوله «يقين»، وتقرر أي بيانات تدخل أي أداة.\n\n> **القاعدة.** الذكاء الاصطناعي يعمل في ما يحيط بالرعاية. القرار السريري للممارس، وتوقيعه يعني أنه قرأ وتحقق.\n\n> **كل شيء اصطناعي.** المرضى والزيارات والملفات من صنع المقرر، والأخطاء مزروعة عمدًا. لا شيء في الملفات يصلح مرجعًا سريريًا.","notes":"قل بوضوح: لن نتعلم هنا كيف يشخّص المساعد أو يعالج. نتعلم كيف نستخدمه في الورق المحيط بالرعاية دون أن يصل خطؤه إلى المريض. الدراسات المنشورة التي نفتحها غدًا حقيقية، وكل ما عداها مصنوع.","minutes":null,"lo":[]},{"id":"what-we-assume","n":4,"title":"تعرف كيف تعمل مع مساعد. هنا نطبق ذلك حيث الخطأ يصل إلى مريض","kind":"content","session":0,"hash":"e7116c40","md":"#### [day1#what-we-assume] تعرف كيف تعمل مع مساعد. هنا نطبق ذلك حيث الخطأ يصل إلى مريض\n\n*ما نفترضه*\n\n- من المقرر السابق USE-FLU-201: تفوّض وتصف وتحكم وتتحمل المسؤولية.\n- لا نعيد تدريس كتابة الأمر ولا التحقق العام من المخرج.\n- الجديد هنا: **مقابل أي مصدر تتحقق**، و**ماذا يصل إلى المريض لو أخطأت**.\n\n| في المختبر | المساعد |\n| --- | --- |\n| تدقيق الملاحظة | أنت أولًا سطرًا سطرًا، ثم المساعد |\n| ورقة المريض وبطاقات الأدلة | كامل، وتراجع كل مخرج |\n| صياغة السؤال السريري | مرشد: يسأل ولا يجيب |\n| الاختبار المراقب | دون مساعد |","notes":"شريحة واحدة للتذكير، لا للتدريس. سياسة استخدام المساعد مكتوبة في أعلى كل صفحة مختبر، وهي جزء مما يُقيَّم.","minutes":null,"lo":[]},{"id":"how-you-are-assessed","n":5,"title":"أربعة مكوّنات، وشرط واحد للنجاح","kind":"content","session":0,"hash":"449cb1bb","md":"#### [day1#how-you-are-assessed] أربعة مكوّنات، وشرط واحد للنجاح\n\n*التقييم*\n\n| البند | القيمة |\n| --- | --- |\n| مخرجات المختبرات | 35% |\n| بطاقة إعادة التصميم | 35% |\n| اختبار مراقب دون ذكاء اصطناعي | 20% |\n| المراجعة المباشرة | 10% |\n\n> **شرط النجاح:** 70% في المجموع، وأن تجد كل خطأ عالي الضرر في الاختبار المراقب.\n\n> **سجل الجلسة:** سطر في آخر كل مختبر: ماذا طلبت، وماذا أدخلت، وما تحققت منه ومقابل أي مصدر، ومن وقّع.","notes":"الأوزان وشرط النجاح من وصف المقرر. الاختبار المراقب جزآن: تدقيق ملاحظة مقابل نصها، وفرز خمس أدوات بحسب صفة الجهاز الطبي. مختبرات اليوم الثلاثة الأولى تمرين مباشر عليه.","minutes":null,"lo":[]},{"id":"setup-check","n":6,"title":"ثلاثة أشياء مفتوحة أمامك","kind":"content","session":0,"hash":"f518c418","md":"#### [day1#setup-check] ثلاثة أشياء مفتوحة أمامك\n\n*قبل أن نبدأ*\n\n- **مجلد الملفات.** نزّله من صفحة المقرر. افتح case_brief.md واقرأ سطره الأول.\n- **جدول بيانات.** افتح uses_six.csv. إن ظهرت العربية سليمة في ستة صفوف فأنت جاهز.\n- **مساعد معتمد.** المساعد الذي أقرّته جهتك أو مساعد القاعة. لا يدخله اليوم أي بيان عن مريض حقيقي.\n\n> **الاختبار.** اسأل المساعد: «ما الفرق بين الإسقاط والاختلاق في ملاحظة طبية؟». إن أجاب فهو يعمل.","notes":"امنح القاعة ثلاث دقائق. المشكلة المعتادة: ملف يفتح بحروف مشوهة في جدول البيانات. الحل: فتحه بالاستيراد مع ترميز UTF-8. من ليس عنده مساعد معتمد يعمل مع زميل.","minutes":null,"lo":[]},{"id":"s1","n":7,"title":"حدود الذكاء الاصطناعي في العمل السريري","kind":"section","session":1,"hash":"c1a5e226","md":"#### [day1#s1] حدود الذكاء الاصطناعي في العمل السريري\n\n*الجلسة 1*\n\n- تفرّق بين استخدام يحيط بالرعاية واستخدام يدخل القرار السريري\n- تحدد من الغرض المقصود هل الأداة جهاز طبي\n- تختار خطوة تبقيها دون مساعد وتعلل اختيارك","notes":"","minutes":null,"lo":["LO5"]},{"id":"around-care-or-decision","n":8,"title":"هل المخرج ورقة تراجعها، أم قرار في مريض؟","kind":"content","session":1,"hash":"90479a87","md":"#### [day1#around-care-or-decision] هل المخرج ورقة تراجعها، أم قرار في مريض؟\n\n*سؤال واحد قبل كل استخدام*\n\n- **ما يحيط بالرعاية.**\n  - مسودة ملاحظة الزيارة\n  - ورقة للمريض من مصدر معتمد\n  - البحث عن دليل لسؤال تصوغه أنت\n  المخرج نص تراجعه مقابل مصدر قبل أن يُعمل به.\n- **القرار السريري.**\n  - ما التشخيص\n  - أي دواء وأي جرعة\n  - من يُحوَّل ومن يُطمأن\n  المخرج يغيّر ما يحدث لمريض بعينه.\n\n> **الاختبار السريع.** هل عندك مصدر تراجع المخرج مقابله؟ النص المسجل مصدر. ورقة المصدر مصدر. «رأي المساعد» ليس مصدرًا.","notes":"اسأل القاعة عن استخدام واحد هذا الأسبوع وصنّفوه معًا. الحد يتحرك: ملخص ملف مريض ورقة، لكنه يصير قرارًا إن قرأه الممارس بدل الملف. لهذا نحتاج الشريحة التالية.","minutes":null,"lo":["LO5"]},{"id":"intended-use-decides","n":9,"title":"الغرض المقصود هو ما يحدد، لا نوع التقنية","kind":"content","session":1,"hash":"69c4cba1","md":"#### [day1#intended-use-decides] الغرض المقصود هو ما يحدد، لا نوع التقنية\n\n*متى يصير دعم القرار جهازًا طبيًا*\n\n- إرشاد الهيئة العامة للغذاء والدواء: **الغرض المقصود** يحدد هل تُنظَّم التقنية جهازًا طبيًا.\n- الغرض يؤخذ من مواصفات المنتج وتعليمات استخدامه وما يقوله مطوّره.\n- إن قُصد بها فحص حالة مرضية أو كشفها أو تشخيصها أو مراقبتها أو علاجها أو تدبيرها، فهي جهاز طبي.\n- الجهاز الطبي لا يُسوَّق ولا يُستخدم دون إذن تسويق.\n\n- **جهاز طبي.** «يكشف اعتلال الشبكية من صور قاع العين». «يقترح جرعة الإنسولين من القراءات».\n- **ليس جهازًا.** «يكتب مسودة ملاحظة الزيارة». «يبحث في الأدلة المنشورة ويذكر مصادره».","notes":"اقرأ الجملتين في البطاقة الحمراء وأبرز الفعلين: يكشف، يقترح جرعة. السؤال الذي يسأله الممارس عن أداة جديدة: ماذا يقول صانعها إنها تفعل؟ وهل لها إذن تسويق؟ لا نصنف هنا المنتجات تفصيلًا: هذا عمل المقرر USE-SEC-201. راجع طبعة الإرشاد قبل كل دفعة.\n\nالمصادر: الهيئة العامة للغذاء والدواء، MDS-G010، الإصدار 1.0.","minutes":null,"lo":["LO5"]},{"id":"same-tool-two-uses","n":10,"title":"المساعد العام قد يكون في مكانه، وقد يكون خارج غرضه","kind":"content","session":1,"hash":"08bd2c1a","md":"#### [day1#same-tool-two-uses] المساعد العام قد يكون في مكانه، وقد يكون خارج غرضه\n\n*الأداة نفسها، استخدامان*\n\n| الاستخدام | الغرض | الحكم |\n| --- | --- | --- |\n| يعيد صياغة ورقة العيادة بلغة مبسطة، بلا بيانات مريض | صياغة نص | حول الرعاية: تطابق الورقة بمصدرها |\n| ممارس يلصق تحاليل مريض ويسأل: ما التشخيص وما الجرعة؟ | قرار سريري | خارج الغرض: لا يُفعل |\n\n> **ثلاثة أخطاء في السطر الثاني.** أداة لم تُصنع لهذا ولم تُجَز له. قرار سُلِّم لها. بيانات مريض خرجت من العيادة.","notes":"المراجعة لا تنقذ السطر الثاني: الممارس الذي «يراجع» تشخيصًا اقترحه المساعد لم يشخّص، بل وافق. هذا مدخل الشريحة التالية. الخطأ الثالث، خروج البيانات، موضوع اليوم الثاني.","minutes":null,"lo":["LO5"]},{"id":"automation-bias","n":11,"title":"حين تقترح الأداة، يميل الإنسان إلى الموافقة","kind":"content","session":1,"hash":"48b128ab","md":"#### [day1#automation-bias] حين تقترح الأداة، يميل الإنسان إلى الموافقة\n\n*الانحياز إلى الأتمتة*\n\n- **الانحياز إلى الأتمتة:** الميل إلى الاعتماد الزائد على ما تقترحه الأداة.\n- يظهر أكثر مع **ضغط العمل** و**ضيق الوقت** و**تعقد المهمة**.\n- يخففه **التدريب** و**تأكيد مسؤولية المستخدم**.\n- أدوات الدعم تحسّن الأداء غالبًا، وتُدخل أخطاء جديدة لا تُلاحَظ.\n\n**74** دراسة في مراجعة منهجية عن الانحياز إلى الأتمتة\n\n> **في عيادتك.** متى تراجع ملاحظات «سجل»؟ في آخر الدوام، ومعك عشرون ملاحظة. هذا هو الظرف الذي تصفه المراجعة.","notes":"اسأل: متى وقّعت آخر مرة على شيء لم تقرأه كاملًا؟ لا تطلب جوابًا بصوت عالٍ. الفكرة: الانحياز ليس كسلًا، بل استجابة متوقعة لظرف العمل، ولذلك يُعالَج بطريقة العمل لا بالنية.\n\nالمصادر: Goddard et al., J Am Med Inform Assoc 2012.","minutes":null,"lo":["LO5"]},{"id":"deskilling","n":12,"title":"من اعتاد المساعد قد يضعف أداؤه حين يغيب","kind":"content","session":1,"hash":"3dc5c201","md":"#### [day1#deskilling] من اعتاد المساعد قد يضعف أداؤه حين يغيب\n\n*ضمور المهارة*\n\n- **28.4%** قبل إدخال الذكاء الاصطناعي\n- **22.4%** بعده، في المناظير التي أُجريت دونه\n\nمعدل كشف الأورام الغدية في تنظير القولون غير المدعوم بالذكاء الاصطناعي، في أربعة مراكز، 1,443 مريضًا.\n\n- دراسة رصدية واحدة، لا تجربة: تدل ولا تحسم.\n- ليست عن التوثيق، لكن السؤال نفسه يُطرح عليه.\n- ما الذي لن تحسنه بعد سنة من الاعتماد على المسودة؟","notes":"اقرأ الرقمين ثم توقف. قل ما تقوله الدراسة فقط: انخفاض في أداء الأطباء أنفسهم حين عملوا دون الأداة بعد أن اعتادوها. لا تعمّم إلى كل مهنة. الأرقام من أبرز ما يتقادم في المقرر: حدّثها قبل كل دفعة.\n\nالمصادر: Lancet Gastroenterol Hepatol 2025، دراسة رصدية متعددة المراكز.","minutes":null,"lo":["LO5"]},{"id":"keep-one-step","n":13,"title":"في كل مهمة تعيد تصميمها، أبقِ خطوة واحدة لك وحدك","kind":"content","session":1,"hash":"db4570bf","md":"#### [day1#keep-one-step] في كل مهمة تعيد تصميمها، أبقِ خطوة واحدة لك وحدك\n\n*خطوة دون مساعد*\n\n- **قراءة النص كاملًا.** قبل أن ترى المسودة. تحفظ قدرتك على أن تعرف ما المهم في الزيارة.\n- **كتابة الخطة بيدك.** المساعد يكتب التاريخ والنتائج. الخطة تكتبها أنت. تحفظ الحكم السريري.\n- **صياغة السؤال.** قبل أن تسأل مساعد الأدلة. تحفظ قدرتك على تحديد ما لا تعرفه.\n\n> **المعيار.** الخطوة التي يعتمد عليها حكمك. إن غابت الأداة غدًا، هل تؤدي المهمة؟","notes":"هذا شرط في المشروع الختامي بنص وصف المقرر: خطوة واحدة تبقى دون مساعدة عمدًا. المشاركون يختارونها في آخر المختبر الآتي. ارفض خطوة لا تحفظ شيئًا، مثل طباعة الورقة.","minutes":null,"lo":["LO5"]},{"id":"baseline","n":14,"title":"لا تعرف ماذا كسبت إن لم تقس ما كان","kind":"content","session":1,"hash":"f430a682","md":"#### [day1#baseline] لا تعرف ماذا كسبت إن لم تقس ما كان\n\n*خط الأساس*\n\n| القياس | كيف |\n| --- | --- |\n| **الوقت** | الدقائق حتى تصير الملاحظة صالحة للتوقيع |\n| **الدقة** | الحقائق الصحيحة من عشر حقائق محددة سلفًا |\n| **الأخطاء** | عددها بحسب درجة الضرر |\n\n> **العمل التحضيري.** زيارة واحدة وثّقتها دون مساعد وقستها. أرقامها تدخل سجل الجلسة اليوم.\n\n> **الوقت وحده يخدع.** مسودة أسرع بخطأ عالي الضرر لم تكسب شيئًا.","notes":"من لم ينجز العمل التحضيري ينجزه هذا المساء: الملفات في المجلد. خط الأساس يُقارَن به تشغيلان بمساعدة الذكاء الاصطناعي في المشروع الختامي، بالمقاييس نفسها.","minutes":null,"lo":["LO5"]},{"id":"check-device-by-use","n":15,"title":"ميزة جديدة في «سجل»","kind":"quiz","session":1,"hash":"d8933a10","md":"#### [day1#check-device-by-use] ميزة جديدة في «سجل»\n\n*نقطة تحقق*\n\n**سؤال:** أعلن مورّد «سجل» ميزة جديدة: «يقترح تعديل جرعة الإنسولين من قراءات السكر التي تُذكر في الزيارة». ماذا يتغير؟\n\n- أ. لا شيء: ما زال الممارس يراجع الجرعة المقترحة ويوقّع\n- ب. صار غرضها تدبير علاج: يُسأل المورّد عن إذن التسويق\n- ج. لا شيء ما دامت الخوادم داخل المملكة والاتفاقية سارية\n- د. تُشغَّل الميزة للمرضى المستقرين فقط، بعد مراجعة الممارس","notes":"الإجابة: الخيار الثاني. إن اختار كثيرون الأول فعد إلى شريحة الغرض المقصود: المراجعة واجبة في الحالين، لكنها لا تعفي من السؤال عن الإذن. الميزة الموصوفة مختلقة للمقرر.","minutes":null,"lo":["LO5"]},{"id":"lab-1-1","n":16,"title":"فرز ستة استخدامات وخط الأساس","kind":"lab","session":1,"hash":"1a012611","md":"#### [day1#lab-1-1] فرز ستة استخدامات وخط الأساس\n\nالمختبر 1.1 · 25 دقيقة\n\nتفرز ستة استخدامات موصوفة في عيادة الصفصاف بحسب الغرض المقصود، وتدوّن خط أساسك والخطوة التي تبقيها دون مساعد\n\n[D1_1_sort_uses.html](https://sdaiaacademy.github.io/use-pro-209/labs/D1_1_sort_uses.html)\n\n- [ ] اقرأ موجز الحالة والاستخدامات الستة (4 د)\n- [ ] اكتب لكل استخدام غرضه المقصود وفئته ومن يقرر (8 د)\n- [ ] قارن جدولك بجدول زميل واحسما الخلاف (4 د)\n- [ ] اطلب من المساعد أن يعترض على صفّين ودوّن ما غيّرته (4 د)\n- [ ] دوّن خط أساسك والخطوة التي تبقيها دون مساعد (5 د)\n- [ ] ✱ إضافي: أضف استخدامًا سابعًا من عملك، واكتب الجملة التي لو قالها الصانع لصار جهازًا طبيًا","notes":"راقب الخطوة الثانية: من يصنف بحسب «هل الأداة ذكية» لا بحسب الغرض؟ ذكّره بالكلمات التي يصف بها الصانع أداته. في الخطوة الخامسة مرّ على من لم ينجز العمل التحضيري. الحل: ثلاثة حول الرعاية (1 و3 و5)، واثنان جهاز طبي (2 و4)، وواحد خارج الغرض (6).","minutes":null,"lo":[]},{"id":"s2","n":17,"title":"أخطاء مساعد التدوين والمراجعة قبل التوقيع","kind":"section","session":2,"hash":"e502f5a8","md":"#### [day1#s2] أخطاء مساعد التدوين والمراجعة قبل التوقيع\n\n*الجلسة 2*\n\n- تسمّي خمسة أنواع من خطأ الملاحظة وتمثّل لكل نوع\n- تدقق ملاحظة سطرًا سطرًا مقابل نص زيارتها\n- تشرح ما يلزم قبل تسجيل زيارة","notes":"","minutes":null,"lo":["LO1"]},{"id":"two-places-to-fail","n":18,"title":"مرحلتان، وفي كل مرحلة يدخل الخطأ","kind":"content","session":2,"hash":"73eef471","md":"#### [day1#two-places-to-fail] مرحلتان، وفي كل مرحلة يدخل الخطأ\n\n*كيف يعمل مساعد التدوين*\n\n1. **1 · الزيارة** كلام بين شخصين أو ثلاثة\n2. **2 · من الكلام إلى نص** «خمس عشرة» قد تُسمع «خمسين»\n3. **3 · من النص إلى ملاحظة** تلخيص وترتيب: يسقط شيء ويُضاف شيء\n\n> **النتيجة واحدة.** ملاحظة مرتبة وسلسة، لا يظهر على سطحها أين وقع الخطأ.","notes":"لا نشرح التقنية. يكفي أن يعرف المشارك أن الخطأ نوعان: خطأ سمع وخطأ تلخيص، وأن كليهما يخرج في ملاحظة حسنة الصياغة. المثال مصنوع للشريحة. في ملفات المختبر خطأ من هذا الجنس: لا تقل أين.","minutes":null,"lo":["LO1"]},{"id":"five-kinds","n":19,"title":"لكل خطأ في الملاحظة اسم","kind":"content","session":2,"hash":"84332d2a","md":"#### [day1#five-kinds] لكل خطأ في الملاحظة اسم\n\n*خمسة أنواع*\n\n| النوع | ما هو | مثال |\n| --- | --- | --- |\n| **إسقاط** | قيل ولم يُكتب | دواء للضغط ذكره المريض ضمن أدويته |\n| **اختلاق** | كُتب ولم يُقل ولم يحدث | «الضغط مضبوط»، ولم يُقس الضغط |\n| **نفي** | انقلبت «نعم» و«لا» | «لا دوخة» صارت «يشكو من دوخة» |\n| **جانب** | انقلب اليمين واليسار | الركبة اليمنى صارت اليسرى |\n| **جرعة** | المقدار أو المرات أو التدرج | 20 ملغ صارت 40 ملغ |","notes":"هذه الأنواع الخمسة هي أنواع ناتج التعلم الأول وأعمدة ورقة التدقيق. الاسم مهم لأنه يحدد أين تبحث: الإسقاط لا يُرى في الملاحظة أصلًا، ويُرى فقط حين تقرأ من النص إلى الملاحظة. الأمثلة مصنوعة للشريحة، وليست من ملفات المختبر.","minutes":null,"lo":["LO1"]},{"id":"what-studies-found","n":20,"title":"أغلب الملاحظات سليمة، وقليل منها خطر","kind":"content","session":2,"hash":"49a0dc8a","md":"#### [day1#what-studies-found] أغلب الملاحظات سليمة، وقليل منها خطر\n\n*ما وجدته دراسة واحدة*\n\n- **18%** من الملاحظات المراجَعة فيها إسقاط\n- **11.5%** فيها اختلاق\n- **5.3%** فيها خطأ ضرره جسيم أو وشيك\n\n> **والرقم الأهم.** في عينة من 960 ملاحظة قيس تعديلها، 14.9% تُركت دون تعديل كلمة واحدة.","notes":"مشروع تحسين جودة: 31 طبيبًا راجعوا 356 ملاحظة صاغها مساعد تدوين. الإسقاط أكثر الأخطاء، وأغلبها خفيف إلى متوسط. اقرأ الرقم الأخير ببطء: نحو واحدة من كل سبع ملاحظات في العينة لم تُمس. دراسة واحدة على منتج واحد: الأرقام تتغير بتغير المنتج والتخصص.\n\nالمصادر: JMIR Med Inform 2026، دراسة تجريبية استباقية.","minutes":null,"lo":["LO1"]},{"id":"fluent-is-not-checked","n":21,"title":"ما يعجبك في الملاحظة ليس ما يجعلها صحيحة","kind":"content","session":2,"hash":"71699357","md":"#### [day1#fluent-is-not-checked] ما يعجبك في الملاحظة ليس ما يجعلها صحيحة\n\n*السلاسة ليست دليلًا*\n\n- **التفضيل لا يتبع الدقة.** 56 طبيبًا قيّموا ملاحظات ثلاثة أنظمة تدوين. النظام الذي فضّلوه لم يكن أقلها أخطاء في التدقيق: 8 أخطاء مقابل 3 للنظام الأدق.\n- **النص قد يحمل ما لم يُقل.** في دراسة لنظام تحويل الكلام إلى نص، نحو 1% من المقاطع خرج فيها نص فيه عبارات لم تكن في الصوت أصلًا.\n\n> **العادة.** لا تسأل: هل الملاحظة جيدة؟ اسأل: أين قيل هذا السطر؟","notes":"الدراسة الأولى صغيرة واستكشافية، وكتّابها يقولون ذلك: نعرضها لأنها تسمّي ما نشعر به، لا لأنها تحسم. الثانية عن نظام واحد في سنة واحدة. الخلاصة العملية واحدة: الحكم على الملاحظة بالنص، لا بالانطباع.\n\nالمصادر: J Am Med Inform Assoc 2026؛ Koenecke et al. 2024.","minutes":null,"lo":["LO1"]},{"id":"consent-for-recording","n":22,"title":"التسجيل بيانات صحية: موافقة المريض عليه تكون صريحة","kind":"content","session":2,"hash":"e398772f","md":"#### [day1#consent-for-recording] التسجيل بيانات صحية: موافقة المريض عليه تكون صريحة\n\n*قبل أن تسجّل*\n\n- البيانات الصحية من **البيانات الحساسة** في نظام حماية البيانات الشخصية.\n- حيث تقوم المعالجة على الموافقة، تكون في البيانات الحساسة **موافقة صريحة**.\n- الغرض يُشرح قبل الموافقة أو عندها، بوضوح وتحديد.\n- الموافقة تُوثَّق بما يمكن التحقق منه لاحقًا.\n- للمريض أن يرجع عنها.\n\n**الطبيبة:** هل توافق على تسجيل الزيارة ليكتب المساعد مسودة الملاحظة؟ يُحذف التسجيل بعد أن أراجعها وأوقّعها.\n\n**المريض (مثال جيد):** نعم، موافق.","notes":"كل نصوص الزيارات في المقرر تبدأ بهذا السؤال: دع المشاركين يلاحظوه في المختبر. ثلاثة أشياء في الجملة: ماذا يُسجَّل، ولماذا، ومتى يُحذف. للمعالجة في النظام أسس أخرى غير الموافقة، وتحديدها لجهتك لا لك: العادة التي ندرّب عليها أن تسأل قبل أن تسجّل. إن رفض المريض تُكتب الملاحظة باليد ولا يتغير شيء في رعايته. طريقة توثيق الموافقة تحددها جهتك: اسأل عنها.\n\nالمصادر: نظام حماية البيانات الشخصية، ولائحته التنفيذية (الموافقة).","minutes":null,"lo":["LO1"]},{"id":"read-against-transcript","n":23,"title":"النص أولًا، ثم في اتجاهين","kind":"content","session":2,"hash":"69acebb4","md":"#### [day1#read-against-transcript] النص أولًا، ثم في اتجاهين\n\n*طريقة التدقيق*\n\n1. **1 · النص كاملًا** علّم الأدوية والجرعات والجوانب وكل «نعم» و«لا»\n2. **2 · من الملاحظة إلى النص** أين قيل هذا السطر؟ يكشف الاختلاق والنفي والجانب والجرعة\n3. **3 · من النص إلى الملاحظة** هل كل ما علّمته مكتوب؟ يكشف الإسقاط\n\n> **الخلاصة.** من يقرأ الملاحظة أولًا يراها سليمة، لأنها تملأ ذاكرته قبل أن يختبرها.","notes":"اضغط مرة لكل خطوة. في عملك المصدر هو التسجيل أو نصه، أو ذاكرتك للزيارة إن راجعت فورًا: كلما تأخرت المراجعة ضعف المصدر. لهذا تُراجَع الملاحظة قبل المريض التالي لا في آخر الدوام.","minutes":null,"lo":["LO1"]},{"id":"worked-line","n":24,"title":"سطر واحد من الملاحظة، وسطره من النص","kind":"content","session":2,"hash":"0a9331aa","md":"#### [day1#worked-line] سطر واحد من الملاحظة، وسطره من النص\n\n*مثال محلول*\n\n- **الملاحظة.** «سكر الصائم 126.»\n- **نص الزيارة، السطر 3.** «وصلت التحاليل: السكر التراكمي 7.9 في المئة، وسكر الصائم 162، ووظائف الكلى سليمة.»\n\n| في ورقة التدقيق | تكتب |\n| --- | --- |\n| ما كُتب | سكر الصائم 126 |\n| رقم السطر | 3 |\n| ما قيل فعلًا | سكر الصائم 162 |\n| النوع | رقم انقلبت خانتاه |\n\n> **ما ليس في ورقة التدقيق.** رأيك في صياغة الملاحظة. ندقق الوقائع، لا الأسلوب.","notes":"هذا هو سطر المثال في ورقة التدقيق، وليس من أخطاء المختبر. نبّه إلى أن الرقم المقلوب ليس من الأنواع الخمسة باسمه: إن كان الرقم جرعة دواء فهو خطأ جرعة، وإلا فاكتبه كما هو. الأنواع الخمسة أدوات بحث، لا قفص.","minutes":null,"lo":["LO1"]},{"id":"check-which-kind","n":25,"title":"أي نوع هذا؟","kind":"quiz","session":2,"hash":"5eebf76c","md":"#### [day1#check-which-kind] أي نوع هذا؟\n\n*نقطة تحقق*\n\n**سؤال:** في نص الزيارة: «هل ما زلت تأخذين الأسبرين؟» «لا، أوقفته قبل شهر». وفي الملاحظة: «تستمر على الأسبرين». ما نوع الخطأ؟\n\n- أ. إسقاط\n- ب. اختلاق\n- ج. نفي\n- د. جرعة","notes":"الإجابة: نفي. من قال «اختلاق» فاسأله: هل ذُكر الأسبرين في الزيارة؟ الحد بين النوعين: الاختلاق من عدم، والنفي قلب لما قيل. المثال ليس من ملفات المختبر.","minutes":null,"lo":["LO1"]},{"id":"lab-1-2","n":26,"title":"تدقيق ملاحظتين بحسب نوع الخطأ","kind":"lab","session":2,"hash":"001493f4","md":"#### [day1#lab-1-2] تدقيق ملاحظتين بحسب نوع الخطأ\n\nالمختبر 1.2 · 25 دقيقة\n\nتدقق ملاحظتين صاغهما «سجل» مقابل نصَّي الزيارتين، وتكتب لكل خطأ سطره ونوعه\n\n[D1_2_audit_notes.html](https://sdaiaacademy.github.io/use-pro-209/labs/D1_2_audit_notes.html)\n\n- [ ] اقرأ نص الزيارة C1 كاملًا قبل ملاحظتها (4 د)\n- [ ] دقق ملاحظة C1 سطرًا سطرًا واملأ ورقة التدقيق (8 د)\n- [ ] دقق ملاحظة C2 بالطريقة نفسها (8 د)\n- [ ] قارن العدد والأنواع مع زميل، وعد إلى النص عند الخلاف (3 د)\n- [ ] اكتب سطر المختبر في سجل الجلسة (2 د)\n- [ ] ✱ إضافي: اطلب من المساعد أن يدقق ملاحظة C1 بنفسه، وعدّ ما فاته وما اتهمه خطأ","notes":"إن أردت أن تسمع القاعة الزيارة الأولى فاقرأها مع مشارك قبل بدء الوقت. راقب: من فتح الملاحظة قبل النص؟ أعده إلى الخطوة الأولى. الحل: خمسة أخطاء في الأولى وستة في الثانية. لا تكشف العدد قبل الخطوة الرابعة. لا يحتاج هذا المختبر إلى مختبر سابق.","minutes":null,"lo":[]},{"id":"s3","n":27,"title":"درجة الضرر والملاحظة المصححة","kind":"section","session":3,"hash":"831d8af6","md":"#### [day1#s3] درجة الضرر والملاحظة المصححة\n\n*الجلسة 3*\n\n- تصنف خطأ الملاحظة بحسب ما يصل إلى المريض لو عُمل بها\n- تكتب ملاحظة مصححة يسند كل تصحيح فيها سطر من النص\n- تبلّغ عن خطأ عالي الضرر عبر القناة المعتمدة","notes":"","minutes":null,"lo":["LO1"]},{"id":"one-question","n":28,"title":"سؤال واحد يزن الخطأ: ماذا يصل إلى المريض؟","kind":"content","session":3,"hash":"6a925d42","md":"#### [day1#one-question] سؤال واحد يزن الخطأ: ماذا يصل إلى المريض؟\n\n*ليست كل الأخطاء سواء*\n\n- في المختبر السابق وجدت 11 خطأ في ملاحظتين.\n- لو صححتها بالترتيب الذي وجدتها به، فقد تبدأ بأقلها شأنًا.\n- الوزن يحدد **ما تصححه أولًا**، و**ما تبلّغ عنه**، و**ما لا يجوز أن يفوتك**.\n\n> **السؤال.** لو عُمل بالملاحظة كما هي، دون أن يراجعها أحد، ماذا يصل إلى المريض؟","notes":"اربط بشرط النجاح: في الاختبار المراقب لا يكفي أن تجد أغلب الأخطاء، بل كل خطأ عالي الضرر. من يجد عشرة أخطاء منخفضة ويفوته خطأ الجرعة لم ينجح.","minutes":null,"lo":["LO1"]},{"id":"three-levels","n":29,"title":"ثلاث درجات","kind":"content","session":3,"hash":"deaf17a6","md":"#### [day1#three-levels] ثلاث درجات\n\n*سلم درجة الضرر*\n\n| الدرجة | متى | أمثلة |\n| --- | --- | --- |\n| **عالٍ** | قد يصل إلى المريض ضرر مباشر | جرعة خاطئة، دواء لم يوصف، دواء أُوقف ولم يُكتب إيقافه، حساسية أُسقطت، عَرَض خطر نُفي |\n| **متوسط** | يضلل قرارًا لاحقًا أو يؤخره، ويُكتشف غالبًا | جانب خاطئ، فحص لم يُجرَ كُتب أنه أُجري، إحالة أُسقطت |\n| **منخفض** | لا يغيّر الرعاية | تفصيل اجتماعي مختلق |\n\n> **عند الشك بين درجتين** اختر الأعلى واكتب السبب. السلم من وضع المقرر للتدريب، لا معيار منشور.","notes":"السلم من وضع المقرر، لا معيارًا منشورًا: قل ذلك. جهات كثيرة عندها سلم لتصنيف الحوادث، فاستخدم سلم جهتك في عملك. ما يهم هنا العادة: أن تزن قبل أن تصحح.","minutes":null,"lo":["LO1"]},{"id":"same-kind-different-harm","n":30,"title":"ثلاثة أخطاء نفي، بثلاث درجات","kind":"content","session":3,"hash":"2387befb","md":"#### [day1#same-kind-different-harm] ثلاثة أخطاء نفي، بثلاث درجات\n\n*النوع لا يحدد الدرجة*\n\n- **عالٍ.** «لا ألم في الصدر» والمريض وصف ألمًا في الصدر عند الجهد. عَرَض خطر نُفي، فقد لا يُحال.\n- **متوسط.** «يشكو من صداع» والمريض نفاه. يقود إلى فحوص لا لزوم لها، ويُكتشف عند سؤاله.\n- **منخفض.** «لا يمارس الرياضة» والمريض قال إنه يمشي أحيانًا. لا يغيّر الرعاية اليوم.\n\n> **الخطأ المعتاد.** «كل خطأ جرعة عالٍ وكل اختلاق منخفض». انظر إلى ما أخطأت فيه الملاحظة، لا إلى اسم الخطأ.","notes":"الأمثلة الثلاثة مصنوعة للشريحة. في ملاحظات المختبر خطأ نفي بكل درجة من الثلاث: لا تقل أين، فوزنها مطلوب في المختبر. في الملاحظات الثلاث 16 خطأ: 7 عالية و7 متوسطة و2 منخفضان.","minutes":null,"lo":["LO1"]},{"id":"signature-means","n":31,"title":"حين توقّع، الملاحظة ملاحظتك","kind":"content","session":3,"hash":"e5f3f1df","md":"#### [day1#signature-means] حين توقّع، الملاحظة ملاحظتك\n\n*التوقيع*\n\n- المساعد كتب المسودة. **أنت كتبت الملاحظة** حين وقّعت.\n- من يقرأ بعدك يثق في الملاحظة لأن عليها اسمك.\n- «المساعد أخطأ» ليست جوابًا عند مراجعة حادثة.\n- المساءلة والمسؤولية من مبادئ أخلاقيات الذكاء الاصطناعي: تبقى على الإنسان.\n\n- **قاعدة العيادة.** لا توقيع قبل قراءة الملاحظة مقابل النص، والأدوية والحساسية أولًا.\n\n> **تذكّر الرقم.** ملاحظة من كل سبع في تلك الدراسة لم تُعدَّل فيها كلمة.","notes":"قاعدة العيادة هنا مثال من الحالة، وليست نصًا نظاميًا. اسأل: ما قاعدة جهتك؟ إن لم تكن مكتوبة فهذه توصية يحملها المشارك إلى جهته.\n\nالمصادر: سدايا، مبادئ أخلاقيات الذكاء الاصطناعي (المساءلة والمسؤولية).","minutes":null,"lo":["LO1"]},{"id":"correct-with-line","n":32,"title":"كل تصحيح يحمل رقم سطره","kind":"content","session":3,"hash":"3274eb9d","md":"#### [day1#correct-with-line] كل تصحيح يحمل رقم سطره\n\n*الملاحظة المصححة*\n\n- **المسودة.** بدء أتورفاستاتين 40 ملغ مساءً.\n- **بعد التصحيح.** بدء أتورفاستاتين 20 ملغ مساءً (السطر 11).\n\n- رقم السطر يجعل تصحيحك قابلًا للمراجعة: من يشك يفتح النص.\n- تصحيح بلا سطر قد يكون من ذاكرتك، والذاكرة ليست مصدرًا.","notes":"المثال مصنوع للشريحة. في العمل الفعلي لا تُكتب أرقام الأسطر في الملاحظة النهائية: هي عادة تدريب، وتبقى في ورقة التدقيق. المطلوب في المختبر أن تظهر، لأن المراجعة المباشرة في المشروع الختامي تسأل: من أين هذا التصحيح؟","minutes":null,"lo":["LO1"]},{"id":"fabricated-needs-statement","n":33,"title":"الحذف لا يكفي دائمًا: اكتب ما قيل فعلًا","kind":"content","session":3,"hash":"ce4c38e8","md":"#### [day1#fabricated-needs-statement] الحذف لا يكفي دائمًا: اكتب ما قيل فعلًا\n\n*ما اختُلق*\n\n| في المسودة | في النص | في الملاحظة المصححة |\n| --- | --- | --- |\n| «طُلب تخطيط قلب» | «لا حاجة إلى تخطيط قلب اليوم» | لا تخطيط قلب في هذه الزيارة |\n| «الضغط مضبوط على العلاج» | «لم أقس الضغط اليوم» | لم يُقس الضغط في هذه الزيارة |\n| «يعمل في مصنع» | لم يقله أحد | يُحذف |\n\n> **القاعدة.** إن كان غياب السطر يترك سؤالًا عند من يقرأ، فاكتب الجواب.","notes":"السطر الأول: لو حُذف فقط لسأل من يقرأ بعدك: هل طُلب التخطيط أم نُسي؟ السطر الثاني أوضح: قياس الضغط متوقع في زيارة سكري، وغيابه يُقرأ نسيانًا لا قرارًا. الأمثلة مصنوعة للشريحة.","minutes":null,"lo":["LO1"]},{"id":"report-back","n":34,"title":"الخطأ العالي يُبلَّغ عنه، لا يُصحَّح فقط","kind":"content","session":3,"hash":"0f0e761d","md":"#### [day1#report-back] الخطأ العالي يُبلَّغ عنه، لا يُصحَّح فقط\n\n*بعد التصحيح*\n\n- صححت ملاحظتك. والملاحظة التالية عند زميلك؟\n- خطأ يتكرر بنمط واحد يخص الأداة، لا يخصك وحدك.\n- البلاغ سطران: ما الخطأ، وفي أي نوع من الزيارات، وماذا كان سيحدث.\n- يُرسل عبر القناة المعتمدة في جهتك، بلا اسم المريض.\n\n- **مثال.** «سجل» كتب 60 وحدة إنسولين بدل 16 في زيارة قيل فيها العدد بالكلمات. لو وُقّعت الملاحظة لصُرفت جرعة تقارب أربعة أضعاف المقصود لمريضة يهبط سكرها.","notes":"في الحالة، البلاغ يذهب إلى نجاة العتيبي، مسؤولة المعلومات الصحية. اسأل المشاركين: إلى من يذهب في جهتكم؟ من لا يعرف، فهذا واجبه قبل أن يستخدم أي مساعد تدوين.","minutes":null,"lo":["LO1"]},{"id":"check-high-harm","n":35,"title":"أي خطأ من هذه عالي الضرر؟","kind":"quiz","session":3,"hash":"7de6bfb0","md":"#### [day1#check-high-harm] أي خطأ من هذه عالي الضرر؟\n\n*نقطة تحقق*\n\n**سؤال:** أربعة أخطاء في ملاحظة مريض سكري على الأقراص. أيها قد يصل ضرره إلى المريض مباشرة لو عُمل بالملاحظة كما هي؟\n\n- أ. كُتب أنه يسكن وحده، ولم يقل ذلك أحد في الزيارة\n- ب. كُتب أن إعتام العدسة في العين اليسرى، وهو في اليمنى\n- ج. كُتب أنه أُحيل إلى أخصائي التغذية، ولم يُحَل إليه\n- د. بقيت جرعة الغليبنكلاميد القديمة، وقد خُفضت بعد هبوط","notes":"الإجابة: الخيار الرابع، وهو خطأ جرعة. من اختار الثاني ساوى بين الخطأ في معلومة طبية والضرر المباشر. المثال مصنوع للشريحة وليس من ملفات المختبر.","minutes":null,"lo":["LO1"]},{"id":"lab-1-3","n":36,"title":"درجة الضرر، وتدقيق الملاحظة الثالثة وتصحيحها","kind":"lab","session":3,"hash":"25cef942","md":"#### [day1#lab-1-3] درجة الضرر، وتدقيق الملاحظة الثالثة وتصحيحها\n\nالمختبر 1.3 · 30 دقيقة\n\nتصنف أحد عشر خطأ بحسب درجة الضرر، ثم تدقق الملاحظة الثالثة كاملة وتكتبها مصححة\n\n[D1_3_harm_and_correction.html](https://sdaiaacademy.github.io/use-pro-209/labs/D1_3_harm_and_correction.html)\n\n- [ ] اقرأ سلم درجة الضرر وصنّف الأخطاء الأحد عشر (8 د)\n- [ ] دقق ملاحظة C3 مقابل نص زيارتها: السطر والنوع والدرجة (10 د)\n- [ ] اكتب الملاحظة المصححة مع رقم السطر لكل تصحيح (8 د)\n- [ ] اكتب بلاغًا من سطرين عن أعلى خطأ ضررًا، وسطر سجل الجلسة (4 د)\n- [ ] ✱ إضافي: اكتب قاعدة مراجعة من ثلاثة بنود تقرؤها قبل كل توقيع، مرتبة بحسب درجة الضرر","notes":"هذا المختبر لا يحتاج إلى ورقة المختبر السابق: قائمة الأخطاء الأحد عشر في الملف audit_found_C1_C2.csv. راقب الخطوة الثالثة: من استعان بالمساعد في إعادة الكتابة، هل قرأ مخرجه مقابل النص؟ الحل: خمسة أخطاء في الزيارة الثالثة، منها اثنان عاليان: سقوط التدرج في الجرعة، ومضاد حيوي لم يوصف.","minutes":null,"lo":[]},{"id":"s4","n":37,"title":"ورقة المريض بلغتين","kind":"section","session":4,"hash":"2146eafd","md":"#### [day1#s4] ورقة المريض بلغتين\n\n*الجلسة 4*\n\n- تطابق ورقة المريض بورقة المصدر حقيقة حقيقة\n- تبسّط نصًا عربيًا وإنجليزيًا دون أن تغيّر معناه\n- تكتب سؤالًا يعيد به المريض التعليمة بكلماته","notes":"","minutes":null,"lo":["LO2"]},{"id":"leaflet-is-care","n":38,"title":"ما يفعله المريض في بيته يتبع الورقة، لا الزيارة","kind":"content","session":4,"hash":"b2a30158","md":"#### [day1#leaflet-is-care] ما يفعله المريض في بيته يتبع الورقة، لا الزيارة\n\n*ورقة المريض*\n\n- مهدي خرج من الزيارة بدواء جديد وورقة.\n- بعد أسبوع لن يتذكر ما قيل. سيقرأ الورقة.\n- الورقة تفشل بطريقتين: **خاطئة**، أو **صحيحة ولا تُفهم**.\n- المساعد يحسّن الثانية بسهولة، وقد يُدخل الأولى وهو يفعل.\n\n- **خاطئة.** «خذ حبتين كل يوم». والمصدر يقول حبة واحدة.\n- **صحيحة ولا تُفهم.** «من المضاعفات النادرة الحماض الكيتوني».","notes":"الدواء في الحالة أُضيف في الزيارة الأولى. ورقة المصدر في المختبر كُتبت للمقرر وروجعت حقائقها على النشرة الرسمية للدواء، وهي مادة تدريبية لا تُعطى لمريض. قل ذلك مرة هنا ومرة عند المختبر.","minutes":null,"lo":["LO2"]},{"id":"accuracy-first","n":39,"title":"طابق الورقة بمصدرها في اتجاهين","kind":"content","session":4,"hash":"e39bc956","md":"#### [day1#accuracy-first] طابق الورقة بمصدرها في اتجاهين\n\n*الدقة أولًا*\n\n1. **1 · من المصدر إلى الورقة** كل حقيقة: موجودة؟ صحيحة الرقم؟\n2. **2 · من الورقة إلى المصدر** كل جملة: لها سطر في المصدر؟\n3. **3 · ثم بسّط** وطابق من جديد بعد التبسيط\n\n> **الترتيب مهم.** من يبسّط مسودة خاطئة يخرج بنص سهل وخاطئ، وهو أخطر من الصعب: سيُقرأ ويُعمل به.","notes":"هذه طريقة تدقيق الملاحظة نفسها، بمصدر آخر. الاتجاه الثاني يكشف ما أضافه المساعد من عنده: في مسودة المختبر جملة عن حماية القلب «عند جميع المرضى» لا سطر لها في المصدر.","minutes":null,"lo":["LO2"]},{"id":"plain-language-rules","n":40,"title":"خمس قواعد تكفي لورقة من صفحة","kind":"content","session":4,"hash":"345bad07","md":"#### [day1#plain-language-rules] خمس قواعد تكفي لورقة من صفحة\n\n*اللغة المبسطة*\n\n1. **خاطب المريض مباشرة:** «خذ»، «اشرب»، «اتصل».\n2. **جملة قصيرة:** لا تزيد على 20 كلمة.\n3. **تعليمة واحدة في الجملة.**\n4. **كلمات المريض:** اشرح المصطلح أو احذفه.\n5. **علامات الخطر في قائمة ظاهرة،** ومعها ما يفعله المريض.\n\n> **هذه قواعد عمل من وضع المقرر.** إن كان لجهتك دليل للكتابة للمرضى فهو المرجع.","notes":"قائمة التحقق في المختبر مبنية على هذه القواعد الخمس، ومعها الدقة. الحد 20 كلمة قاعدة عمل لا معيارًا منشورًا. للإنجليزية نضيف مستوى القراءة: الصف الثامن أو أقل.","minutes":null,"lo":["LO2"]},{"id":"arabic-register","n":41,"title":"التعليمة نفسها بثلاثة مستويات","kind":"content","session":4,"hash":"0eabe204","md":"#### [day1#arabic-register] التعليمة نفسها بثلاثة مستويات\n\n*مستوى العربية*\n\n| المستوى | الجملة | المشكلة |\n| --- | --- | --- |\n| رسمي | «يُنصح بالإكثار من تناول السوائل نظرًا لزيادة الإدرار» | مبني للمجهول، وكلمة لا يعرفها المريض |\n| فصحى مبسطة | «الدواء يجعلك تتبول أكثر. اشرب ماء كافيًا» | يفهمها قارئ من أي بلد عربي |\n| عامية | جملة بلهجة منطقة واحدة | قريبة ممن يتكلمها، وغريبة مكتوبةً على غيره |\n\n> **للورقة المكتوبة:** فصحى مبسطة. العامية مكانها الشرح الشفهي عند تسليم الورقة.","notes":"لا يوجد هنا مقياس معتمد لمستوى قراءة العربية كما في الإنجليزية: نعتمد طول الجملة، والمصطلحات، وقراءة زميل أو مريض. إن طلبت من المساعد «لغة مبسطة» فقد يعطيك عامية أو رسمية: سمِّ المستوى في الأمر. هذا اختيار المقرر، ولجهتك أن تقرر غيره لمرضاها.","minutes":null,"lo":["LO2"]},{"id":"before-after","n":42,"title":"أربعون كلمة صارت جملتين","kind":"content","session":4,"hash":"e7758290","md":"#### [day1#before-after] أربعون كلمة صارت جملتين\n\n*قبل وبعد*\n\n- **مسودة المساعد.** «ينتمي هذا الدواء إلى مثبطات الناقل المشارك للصوديوم والغلوكوز من النوع الثاني، وهي فئة دوائية تعمل على زيادة الإفراغ البولي للغلوكوز عبر الكلى مما يؤدي إلى انخفاض مستويات السكر في الدم…»\n- **النسخة المرجعية.** «الدواء يُخرج السكر مع البول، فتتبول أكثر. اشرب ماء كافيًا.»\n\n| البند | القيمة |\n| --- | --- |\n| أطول جملة في المسودة العربية | 40 كلمة |\n| أطول جملة في النسخة المرجعية | 11 كلمة |","notes":"الأرقام من تشغيل حل المختبر 1.4. النسخة المرجعية أسقطت اسم الفئة الدوائية كله: المريض لا يحتاجه ليأخذ دواءه. ما بقي هو ما سيلاحظه وما يفعله.","minutes":null,"lo":["LO2"]},{"id":"translation-is-not-copy","n":43,"title":"الإنجليزية ليست ترجمة للعربية: كلتاهما تعود إلى المصدر","kind":"content","session":4,"hash":"2d1ca2b6","md":"#### [day1#translation-is-not-copy] الإنجليزية ليست ترجمة للعربية: كلتاهما تعود إلى المصدر\n\n*نسختان*\n\n- إن ترجمت نسخة من الأخرى انتقل خطؤها معها.\n- طابق كل نسخة بالمصدر، ثم قارن النسختين.\n- الأرقام أول ما تقارن: الجرعة، والوقت، وعدد الأيام.\n- المريض قد يقرأ نسخة وقريبه الأخرى: يجب أن تقولا الشيء نفسه.\n\n| البند | القيمة |\n| --- | --- |\n| مستوى قراءة المسودة الإنجليزية | 18.1 |\n| مستوى قراءة النسخة المرجعية | 3.8 |\n| الحد في قائمة التحقق | 8 |","notes":"مستوى القراءة هنا بمعادلة Flesch-Kincaid كما يحسبها حل المختبر 1.4: طول الجملة وعدد مقاطع الكلمة. رقم تقريبي: مساعدك قد يحسب رقمًا قريبًا لا مطابقًا. في المسودة الإنجليزية خطأ في عدد الأيام قبل العملية ليس في العربية: هذا ما تكشفه مقارنة النسختين.","minutes":null,"lo":["LO2"]},{"id":"teach-back","n":44,"title":"سؤال واحد يختبر الورقة: «قل لي بكلماتك»","kind":"content","session":4,"hash":"a95b389a","md":"#### [day1#teach-back] سؤال واحد يختبر الورقة: «قل لي بكلماتك»\n\n*التحقق مع المريض*\n\n**الممرضة:** قبل أن تغادر، قل لي بكلماتك: ماذا تفعل إذا أصابك قيء؟\n\n**المريض (مثال جيد):** أوقف الحبة الجديدة وأطلب مساعدة طبية فورًا.\n\n- «هل فهمت؟» جوابها دائمًا نعم.\n- اسأل عن أخطر تعليمة في الورقة، لا عن أسهلها.\n- إن أخطأ المريض فالورقة هي التي تُعدَّل.","notes":"القيء من علامات الخطر في ورقة المصدر (F9)، وهي من نشرة الدواء: يوقف الدواء ويطلب مساعدة طبية فورًا. أما الإسهال فقاعدة أيام المرض، وهي قاعدة العيادة الافتراضية: في عملك تُتبع قاعدة جهتك. السؤال يُكتب في آخر الورقة نفسها، كما في النسخة المرجعية، ليذكّر من يسلّمها. في المختبر لا مريض: الزميل يقوم مقامه إن بقي وقت.","minutes":null,"lo":["LO2"]},{"id":"check-accuracy-not-readability","n":45,"title":"أي جملة تفشل في الدقة، لا في سهولة القراءة؟","kind":"quiz","session":4,"hash":"28b7c18d","md":"#### [day1#check-accuracy-not-readability] أي جملة تفشل في الدقة، لا في سهولة القراءة؟\n\n*نقطة تحقق*\n\n**سؤال:** ورقة المصدر تقول: حبة واحدة في الصباح، ويشرب المريض ماء كافيًا، ويوقف الدواء مؤقتًا عند الإسهال ويتصل بالعيادة. أي جملة من مسودة الورقة تخالف المصدر؟\n\n- أ. «خذ حبتين كل يوم في الصباح»\n- ب. «يُنصح بالإكثار من شرب الماء»\n- ج. «عند الإسهال يوقف الدواء مؤقتًا ويُتصل بالعيادة»\n- د. «يزيد الدواء الإفراغ البولي للغلوكوز»","notes":"الإجابة: الخيار الأول. من اختار جملة أخرى خلط بين البابين في قائمة التحقق. اسأل: أي الأربع ستُعمل بها دون تردد؟ الأولى، ولهذا هي الأخطر.","minutes":null,"lo":["LO2"]},{"id":"lab-1-4","n":46,"title":"ورقة المريض بالعربية والإنجليزية","kind":"lab","session":4,"hash":"58420469","md":"#### [day1#lab-1-4] ورقة المريض بالعربية والإنجليزية\n\nالمختبر 1.4 · 30 دقيقة\n\nتراجع مسودتَي ورقة عن دواء أُضيف، وتخرج بنسختين تجتازان قائمة التحقق للدقة وسهولة القراءة\n\n[D1_4_patient_information.html](https://sdaiaacademy.github.io/use-pro-209/labs/D1_4_patient_information.html)\n\n- [ ] اقرأ ورقة المصدر وعلّم ما يجب ألا يسقط (4 د)\n- [ ] طابق المسودة العربية بالمصدر حقيقة حقيقة (7 د)\n- [ ] أعد كتابة العربية بلغة مبسطة، ولك أن تستعين بالمساعد (7 د)\n- [ ] طابق المسودة الإنجليزية وأعد كتابتها (7 د)\n- [ ] املأ قائمة التحقق للنسختين، وسطر سجل الجلسة (5 د)\n- [ ] ✱ إضافي: اطلب من المساعد أن يحسب مستوى القراءة للنسخة الإنجليزية، وقارن حسابه بقراءة زميل","notes":"ذكّر: ورقة المصدر مادة تدريبية. وذكّر بحذف اسم المريض قبل أي لصق في المساعد. راقب الخطوة الثالثة: من بسّط قبل أن يصحح؟ الحل: سبعة عيوب دقة وعيبا سهولة قراءة في العربية، وأربعة عيوب دقة وعيب سهولة قراءة في الإنجليزية، منها قاعدة أيام المرض الساقطة كلها من الإنجليزية، والنصف العاجل من F6 الساقط من المسودتين.","minutes":null,"lo":[]},{"id":"wrap-up","n":47,"title":"ثلاثة أشياء تبقى معك","kind":"content","session":4,"hash":"f69ca768","md":"#### [day1#wrap-up] ثلاثة أشياء تبقى معك\n\n*خلاصة اليوم*\n\n- **الغرض يحدد.** ما يحيط بالرعاية تراجعه مقابل مصدر. ما قُصد به تشخيص أو علاج جهاز طبي يلزمه إذن.\n- **النص قبل الملاحظة.** اقرأ في اتجاهين، وزن كل خطأ بما يصل إلى المريض. التوقيع توقيعك.\n- **الدقة قبل السهولة.** ورقة المريض تعود إلى مصدرها حقيقة حقيقة، ثم تُبسَّط، ثم تُطابَق من جديد.","notes":"اسأل كل مشارك عن خطأ واحد فاته اليوم ولماذا فاته. الجواب المعتاد: قرأت الملاحظة أولًا. هذا ما نريد أن يبقى.","minutes":null,"lo":[]},{"id":"next","n":48,"title":"الدليل عند مصدره، والبيانات الصحية","kind":"content","session":4,"hash":"67e23ab4","md":"#### [day1#next] الدليل عند مصدره، والبيانات الصحية\n\n*غدًا*\n\n- تتحقق من أجوبة «يقين» عن أربعة أسئلة سريرية: ادعاءً ادعاءً، عند المصدر.\n- تقرر أي بيانات تدخل أي أداة، وتزيل المعرِّفات من ملف مريض.\n- **أحضر:** ورقة خط الأساس إن لم تدوّنها اليوم، واسم الدليل الإرشادي المعتمد في جهتك للسكري.","notes":"مختبرا الغد الأولان يحتاجان إلى اتصال بالإنترنت لفتح سجلات الدراسات في PubMed. تأكد من الشبكة في القاعة قبل الصباح.","minutes":null,"lo":[]}],"activities":[{"id":"check-device-by-use-q1","slide":"check-device-by-use","type":"single","prompt":"أعلن مورّد «سجل» ميزة جديدة: «يقترح تعديل جرعة الإنسولين من قراءات السكر التي تُذكر في الزيارة». ماذا يتغير؟","options":[{"key":"أ","text":"لا شيء: ما زال الممارس يراجع الجرعة المقترحة ويوقّع"},{"key":"ب","text":"صار غرضها تدبير علاج: يُسأل المورّد عن إذن التسويق"},{"key":"ج","text":"لا شيء ما دامت الخوادم داخل المملكة والاتفاقية سارية"},{"key":"د","text":"تُشغَّل الميزة للمرضى المستقرين فقط، بعد مراجعة الممارس"}],"correct":[1],"explanation":"الغرض المقصود هو ما يحدد. أداة تقترح جرعة قُصد بها تدبير علاج مرض، وهذا يدخلها في تعريف الجهاز الطبي.","misconceptions":["يظن أن المراجعة تغيّر الغرض: الغرض المقصود يؤخذ مما يقوله الصانع، لا من وجود من يوقّع","","يخلط حماية البيانات بصفة الجهاز الطبي: مكان الخوادم لا يحدد هل الأداة جهاز","يحدد من تُستخدم معهم الأداة ولا يغيّر غرضها: اقتراح الجرعة تدبير علاج عند أي مريض"],"lo":["LO5"]},{"id":"check-which-kind-q1","slide":"check-which-kind","type":"single","prompt":"في نص الزيارة: «هل ما زلت تأخذين الأسبرين؟» «لا، أوقفته قبل شهر». وفي الملاحظة: «تستمر على الأسبرين». ما نوع الخطأ؟","options":[{"key":"أ","text":"إسقاط"},{"key":"ب","text":"اختلاق"},{"key":"ج","text":"نفي"},{"key":"د","text":"جرعة"}],"correct":[2],"explanation":"«لا» صارت «نعم». وهذا من أخطر صور النفي: دواء أُوقف يعود إلى قائمة الأدوية.","misconceptions":["الإسقاط شيء غاب عن الملاحظة: هنا كُتب شيء، وهو عكس ما قيل","الاختلاق شيء لم يُذكر في الزيارة أصلًا: الأسبرين ذُكر، والذي انقلب هو الجواب","","لا مقدار تغيّر ولا عدد مرات: الذي تغيّر هل يؤخذ الدواء أم لا"],"lo":["LO1"]},{"id":"check-high-harm-q1","slide":"check-high-harm","type":"single","prompt":"أربعة أخطاء في ملاحظة مريض سكري على الأقراص. أيها قد يصل ضرره إلى المريض مباشرة لو عُمل بالملاحظة كما هي؟","options":[{"key":"أ","text":"كُتب أنه يسكن وحده، ولم يقل ذلك أحد في الزيارة"},{"key":"ب","text":"كُتب أن إعتام العدسة في العين اليسرى، وهو في اليمنى"},{"key":"ج","text":"كُتب أنه أُحيل إلى أخصائي التغذية، ولم يُحَل إليه"},{"key":"د","text":"بقيت جرعة الغليبنكلاميد القديمة، وقد خُفضت بعد هبوط"}],"correct":[3],"explanation":"دواء يزيد هبوط السكر خُفضت جرعته لهذا السبب، والملاحظة تبقي الجرعة القديمة. من يصرف من الملاحظة يصرفها.","misconceptions":["اختلاق، لكنه تفصيل اجتماعي لا يغيّر الرعاية: يزن الخطأ بغرابته لا بأثره","يضلل ويُكتشف غالبًا عند فحص العين: يساوي بين كل خطأ في معلومة طبية وبين الضرر المباشر","إحالة لم تحدث تُكتشف حين لا يصل موعدها: تؤخر ولا تضر مباشرة",""],"lo":["LO1"]},{"id":"check-accuracy-not-readability-q1","slide":"check-accuracy-not-readability","type":"single","prompt":"ورقة المصدر تقول: حبة واحدة في الصباح، ويشرب المريض ماء كافيًا، ويوقف الدواء مؤقتًا عند الإسهال ويتصل بالعيادة. أي جملة من مسودة الورقة تخالف المصدر؟","options":[{"key":"أ","text":"«خذ حبتين كل يوم في الصباح»"},{"key":"ب","text":"«يُنصح بالإكثار من شرب الماء»"},{"key":"ج","text":"«عند الإسهال يوقف الدواء مؤقتًا ويُتصل بالعيادة»"},{"key":"د","text":"«يزيد الدواء الإفراغ البولي للغلوكوز»"}],"correct":[0],"explanation":"الجملة الأولى أسهل الأربع وأوضحها، وهي الوحيدة الخاطئة. السهولة لا تدل على الصحة.","misconceptions":["","الجملة صحيحة المعنى: عيبها المبني للمجهول، وهذا عيب سهولة قراءة","الجملة صحيحة المعنى: عيبها أنها لا تخاطب المريض ولا تقول من يتصل، وهذا عيب سهولة قراءة","الجملة صحيحة المعنى: عيبها مصطلح بلا شرح، وهذا عيب سهولة قراءة"],"lo":["LO2"]}],"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":"day1.md","llms":"../llms.txt"},"tasks":[],"tools":[]},"bridge":{"allowedOrigins":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>

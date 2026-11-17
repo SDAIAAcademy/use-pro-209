@@ -1,0 +1,73 @@
+{
+  "levels": [
+    "لا بيانات شخصية",
+    "مقتطف أُزيلت معرِّفاته",
+    "بيانات صحية معرِّفة"
+  ],
+  "tools": [
+    {
+      "id": "T1",
+      "level": 2,
+      "purposes": [
+        "note",
+        "referral"
+      ]
+    },
+    {
+      "id": "T2",
+      "level": 0,
+      "purposes": [
+        "plain",
+        "general"
+      ]
+    },
+    {
+      "id": "T3",
+      "level": 1,
+      "purposes": [
+        "evidence",
+        "teaching",
+        "plain",
+        "general"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "K1",
+      "purpose": "note",
+      "need": 2,
+      "tool": "T1"
+    },
+    {
+      "id": "K2",
+      "purpose": "plain",
+      "need": 0,
+      "tool": "T2"
+    },
+    {
+      "id": "K3",
+      "purpose": "evidence",
+      "need": 1,
+      "tool": "T3"
+    },
+    {
+      "id": "K4",
+      "purpose": "referral",
+      "need": 2,
+      "tool": "T1"
+    },
+    {
+      "id": "K5",
+      "purpose": "translate",
+      "need": 2,
+      "tool": ""
+    },
+    {
+      "id": "K6",
+      "purpose": "teaching",
+      "need": 1,
+      "tool": "T3"
+    }
+  ]
+}
