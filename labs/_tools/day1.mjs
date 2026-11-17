@@ -291,7 +291,7 @@ export const facts = [
   { id: "F4", text: "إذا نسي جرعة يأخذها حين يتذكر في اليوم نفسه، ولا يضاعف الجرعة التالية.", en: "If a dose is missed, take it when remembered the same day. Never take two doses to catch up.", ar_tok: ["لا تأخذ حبتين"], en_tok: ["Never take two"] },
   { id: "F5", text: "الدواء يُخرج السكر في البول، فيزيد التبول. يشرب المريض ماء كافيًا.", en: "The medicine removes sugar in the urine, so you will pass more urine. Drink enough water.", ar_tok: ["ماء"], en_tok: ["water"] },
   { id: "F6", text: "قد تظهر حكة أو احمرار في المنطقة التناسلية: نظافة وتجفيف، ومراجعة العيادة إن ظهرت. ألم أو تورم شديد هناك مع حرارة: إلى الطوارئ.", en: "Itching or redness in the genital area can happen: keep the area clean and dry and call the clinic. Severe pain or swelling there with fever: go to the emergency department.", ar_tok: ["حكة"], en_tok: ["tching"] },
-  { id: "F7", text: "أيام المرض: عند القيء أو الإسهال أو العجز عن الأكل والشرب، يوقف الدواء مؤقتًا ويتصل بالعيادة.", en: "Sick days: if you vomit, have diarrhoea or cannot eat or drink, stop the medicine for now and call the clinic.", ar_tok: ["قيء", "أوقف"], en_tok: ["vomit", "stop"] },
+  { id: "F7", text: "قاعدة العيادة لأيام المرض: عند القيء أو الإسهال أو العجز عن الأكل والشرب، يوقف الدواء مؤقتًا ويتصل بالعيادة.", en: "The clinic's sick-day rule: if you vomit, have diarrhoea or cannot eat or drink, stop the medicine for now and call the clinic.", ar_tok: ["قيء", "أوقف"], en_tok: ["vomit", "stop"] },
   { id: "F8", text: "قبل عملية جراحية أو صيام طويل لإجراء: يخبر الفريق. يوقف الدواء ثلاثة أيام على الأقل قبلها.", en: "Before an operation or a long fast for a procedure: tell the team. The medicine is stopped at least 3 days before.", ar_tok: ["3 أيام"], en_tok: ["3 days"] },
   { id: "F9", text: "علامات خطر: غثيان، قيء، ألم في البطن، تعب شديد، صعوبة في التنفس. قد تظهر وقياس السكر طبيعي. يوقف الدواء ويذهب إلى الطوارئ فورًا.", en: "Danger signs: feeling sick, vomiting, belly pain, great tiredness, trouble breathing. They can come even when your sugar reading is normal. Stop the medicine and go to the emergency department now.", ar_tok: ["طبيعي", "الطوارئ"], en_tok: ["normal", "emergency"] },
   { id: "F10", text: "الموعد القادم: تحليل السكر التراكمي بعد ثلاثة أشهر. للأسئلة: عيادة الصفصاف، التحويلة 214.", en: "Next visit: a blood test in 3 months. Questions: Al-Safsaf clinic, extension 214.", ar_tok: ["214"], en_tok: ["214"] },
@@ -299,7 +299,7 @@ export const facts = [
 
 export const sourceSheet = `# ورقة المصدر: إضافة إمباغليفلوزين
 
-${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف، وروجعت حقائقها على النشرة الرسمية للدواء. ليست إرشادًا سريريًا.
+${SYNTH} كُتبت الورقة للمقرر على هيئة ورقة داخلية لعيادة الصفصاف، وروجعت الجرعة والوقت والجرعة المنسية والعملية وعلامات الخطر على النشرة الرسمية الأمريكية للدواء. قاعدة أيام المرض F7 قاعدة العيادة الافتراضية. ليست إرشادًا سريريًا.
 
 **التغيير:** المريض مهدي السبيعي على ميتفورمين 1000 ملغ مرتين يوميًا. أُضيف إمباغليفلوزين 10 ملغ (الزيارة C1).
 
