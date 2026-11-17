@@ -133,7 +133,6 @@ AI for Clinical and Health Professionals
 ### الأدوات
 
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
-- [Cochrane Library](https://www.cochranelibrary.com/)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية
